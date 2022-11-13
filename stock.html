@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Акции</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20221113123513">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header data-scroll="80" data-scroll-show class="header">
+			<div class="header__container">
+				<a href="index.html" class="header__logo"><img src="img/logo.svg" alt="Логотип UA Quartz"></a>
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="catalog.html" class="menu__link">Каталог</a></li>
+							<li class="menu__item">
+								<a href="gallery.html" class="menu__link menu__link_arrow">Галерея</a>
+								<div class="menu__sublist">
+									<ul class="sublist-menu">
+										<li class="sublist-menu__item"><a href="kitchens.html" class="sublist-menu__link">Кухни</a></li>
+										<li class="sublist-menu__item"><a href="kitchens.html" class="sublist-menu__link">Ванные</a></li>
+										<li class="sublist-menu__item"><a href="kitchens.html" class="sublist-menu__link">Подоконники</a></li>
+										<li class="sublist-menu__item"><a href="kitchens.html" class="sublist-menu__link">Барные стойки</a></li>
+										<li class="sublist-menu__item"><a href="kitchens.html" class="sublist-menu__link">Коммерчиские объекты</a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="menu__item"><a href="stock.html" class="menu__link">Акции</a></li>
+							<li class="menu__item"><a href="service.html" class="menu__link">Сервис</a></li>
+							<li class="menu__item"><a href="blogs.html" class="menu__link">Статьи</a></li>
+							<li class="menu__item">
+								<a href="about.html" class="menu__link menu__link_arrow">О Компании</a>
+								<div class="menu__sublist">
+									<ul class="sublist-menu">
+										<li class="sublist-menu__item"><a href="contacts.html" class="sublist-menu__link">Контакты</a></li>
+										<li class="sublist-menu__item"><a href="partnership.html" class="sublist-menu__link">Партнерство с UA Quartz</a></li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div data-da=".menu__body, 767.98" data-one-select class="header__contacts contacts-header">
+					<div class="contacts-header__selects">
+						<select id="countries" name="form[]" data-class-modif="select-contacts" data-show-selected>
+							<option data-class="select-contacts__item" value="Ukraine" selected>Укр</option>
+							<option data-class="select-contacts__item" value="Poland">Пл</option>
+						</select>
+						<select data-country="Ukraine" name="form[]" data-show-selected data-class-modif="select-contacts">
+							<option data-class="select-contacts__city" value="kyiv" selected>Киев</option>
+							<option data-class="select-contacts__city" value="odessa">Одесса</option>
+							<option data-class="select-contacts__city" value="dnepr">Днепр</option>
+							<option data-class="select-contacts__city" value="lvov">Львов</option>
+							<option data-class="select-contacts__city" value="kharkiv">Харьков</option>
+						</select>
+						<select data-country="Poland" name="form[]" data-show-selected data-class-modif="select-contacts">
+							<option data-class="select-contacts__city" value="warsaw" selected>Варшава</option>
+							<option data-class="select-contacts__city" value="wroclaw">Вроцлав</option>
+						</select>
+					</div>
+					<div class="contacts-header__items">
+						<div id="kyiv" class="contacts-header__phone">
+							<a href="tel:+380675054499" class="contacts-header__number">+38 (067) 505-44-99</a>
+							<a href="tel:+380675014499" class="contacts-header__number">+38 (067) 501-44-99</a>
+						</div>
+						<div id="odessa" class="contacts-header__phone" style="display: none;">
+							<a href="tel:+380938410664" class="contacts-header__number">+38 (093) 841-06-64</a>
+							<a href="tel:+380675014499" class="contacts-header__number">+38 (067) 501-44-99</a>
+						</div>
+						<div id="dnepr" class="contacts-header__phone" style="display: none;">
+							<a href="tel:+380932849550" class="contacts-header__number">+38 (093) 284-95-50</a>
+						</div>
+						<div id="lvov" class="contacts-header__phone" style="display: none;">
+							<a href="tel:+380938410673" class="contacts-header__number">+38 (093) 841-06-73</a>
+						</div>
+						<div id="kharkiv" class="contacts-header__phone" style="display: none;">
+							<a href="tel:+380675054499" class="contacts-header__number">+38 (067) 505-44-99</a>
+						</div>
+						<div id="warsaw" class="contacts-header__phone" style="display: none;">
+							<a href="tel:+480675054499" class="contacts-header__number">+48 (067) 505-44-99</a>
+						</div>
+						<div id="wroclaw" class="contacts-header__phone" style="display: none;">
+							<a href="tel:+480938410673" class="contacts-header__number">+48 (093) 841-06-73</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="stock-colors">
+				<div class="stock-colors__container">
+					<div class="stock-colors__header page-top">
+						<nav class="page-top__pages pages-navigation">
+							<ul class="pages-navigation__list ">
+								<li class="pages-navigation__item pages-navigation__item_white"><a href="index.html" class="pages-navigation__link">Главная</a></li>
+								<li class="pages-navigation__item pages-navigation__item_white"><a href="stock.html" class="pages-navigation__link pages-navigation__link_active">Акции</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="stock-colors__body">
+						<div class="stock-colors__content">
+							<h1 class="stock-colors__title">Акционные цвета</h1>
+							<div class="stock-colors__lable">Оформите заявку и получите скидку</div>
+						</div>
+						<form action="#" method="#" class="stock-colors__form form-book">
+							<h3 class="form-book__title">Закажите бесплатный замер</h3>
+							<div class="form-book__body">
+								<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Ваше имя" class="form-book__input input input_dark">
+								<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Ваш телефон" class="form-book__input input input_dark">
+								<button type="submit" class="form-book__button button">заказать</button>
+							</div>
+						</form>
+					</div>
+				</div>
+				<picture><source srcset="img/stock/bg-image.webp" type="image/webp"><img src="img/stock/bg-image.jpg" alt="image" class="stock-colors__bg-image"></picture>
+			</section>
+			<div class="catalog-stock">
+				<div class="catalog-stock__container">
+					<div class="catalog-stock__items">
+						<div class="catalog-stock__item item-product">
+							<a href="product.html" class="item-product__image-ibg">
+								<picture><source data-srcset="img/catalog/image1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/image1.jpg" alt="image"></picture>
+								<div class="item-product__stock">Акция</div>
+							</a>
+							<a href="product.html" class="item-product__name">Iron copper</a>
+							<div class="item-product__info">
+								<div class="item-product__manufacturer">Neolith</div>
+								<div class="item-product__status">Бесплатная порезка</div>
+							</div>
+						</div>
+						<div class="catalog-stock__item item-product">
+							<a href="product.html" class="item-product__image-ibg">
+								<picture><source data-srcset="img/catalog/image1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/image1.jpg" alt="image"></picture>
+								<div class="item-product__stock">Акция</div>
+							</a>
+							<a href="product.html" class="item-product__name">Iron copper</a>
+							<div class="item-product__info">
+								<div class="item-product__manufacturer">Neolith</div>
+								<div class="item-product__status">Бесплатная порезка</div>
+							</div>
+						</div>
+						<div class="catalog-stock__item item-product">
+							<a href="product.html" class="item-product__image-ibg">
+								<picture><source data-srcset="img/catalog/image1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/image1.jpg" alt="image"></picture>
+								<div class="item-product__stock">Акция</div>
+							</a>
+							<a href="product.html" class="item-product__name">Iron copper</a>
+							<div class="item-product__info">
+								<div class="item-product__manufacturer">Neolith</div>
+								<div class="item-product__status">Бесплатная порезка</div>
+							</div>
+						</div>
+						<div class="catalog-stock__item item-product">
+							<a href="product.html" class="item-product__image-ibg">
+								<picture><source data-srcset="img/catalog/image1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/image1.jpg" alt="image"></picture>
+								<div class="item-product__stock">Акция</div>
+							</a>
+							<a href="product.html" class="item-product__name">Iron copper</a>
+							<div class="item-product__info">
+								<div class="item-product__manufacturer">Neolith</div>
+								<div class="item-product__status">Бесплатная порезка</div>
+							</div>
+						</div>
+						<div class="catalog-stock__item item-product">
+							<a href="product.html" class="item-product__image-ibg">
+								<picture><source data-srcset="img/catalog/image1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/image1.jpg" alt="image"></picture>
+								<div class="item-product__stock">Акция</div>
+							</a>
+							<a href="product.html" class="item-product__name">Iron copper</a>
+							<div class="item-product__info">
+								<div class="item-product__manufacturer">Neolith</div>
+								<div class="item-product__status">Бесплатная порезка</div>
+							</div>
+						</div>
+						<div class="catalog-stock__item item-product">
+							<a href="product.html" class="item-product__image-ibg">
+								<picture><source data-srcset="img/catalog/image1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/image1.jpg" alt="image"></picture>
+								<div class="item-product__stock">Акция</div>
+							</a>
+							<a href="product.html" class="item-product__name">Iron copper</a>
+							<div class="item-product__info">
+								<div class="item-product__manufacturer">Neolith</div>
+								<div class="item-product__status">Бесплатная порезка</div>
+							</div>
+						</div>
+						<div class="catalog-stock__item item-product">
+							<a href="product.html" class="item-product__image-ibg">
+								<picture><source data-srcset="img/catalog/image1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/image1.jpg" alt="image"></picture>
+								<div class="item-product__stock">Акция</div>
+							</a>
+							<a href="product.html" class="item-product__name">Iron copper</a>
+							<div class="item-product__info">
+								<div class="item-product__manufacturer">Neolith</div>
+								<div class="item-product__status">Бесплатная порезка</div>
+							</div>
+						</div>
+						<div class="catalog-stock__item item-product">
+							<a href="product.html" class="item-product__image-ibg">
+								<picture><source data-srcset="img/catalog/image1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/image1.jpg" alt="image"></picture>
+								<div class="item-product__stock">Акция</div>
+							</a>
+							<a href="product.html" class="item-product__name">Iron copper</a>
+							<div class="item-product__info">
+								<div class="item-product__manufacturer">Neolith</div>
+								<div class="item-product__status">Бесплатная порезка</div>
+							</div>
+						</div>
+						<div class="catalog-stock__item item-product">
+							<a href="product.html" class="item-product__image-ibg">
+								<picture><source data-srcset="img/catalog/image1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/image1.jpg" alt="image"></picture>
+								<div class="item-product__stock">Акция</div>
+							</a>
+							<a href="product.html" class="item-product__name">Iron copper</a>
+							<div class="item-product__info">
+								<div class="item-product__manufacturer">Neolith</div>
+								<div class="item-product__status">Бесплатная порезка</div>
+							</div>
+						</div>
+						<div class="catalog-stock__item item-product">
+							<a href="product.html" class="item-product__image-ibg">
+								<picture><source data-srcset="img/catalog/image1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/image1.jpg" alt="image"></picture>
+								<div class="item-product__stock">Акция</div>
+							</a>
+							<a href="product.html" class="item-product__name">Iron copper</a>
+							<div class="item-product__info">
+								<div class="item-product__manufacturer">Neolith</div>
+								<div class="item-product__status">Бесплатная порезка</div>
+							</div>
+						</div>
+						<div class="catalog-stock__item item-product">
+							<a href="product.html" class="item-product__image-ibg">
+								<picture><source data-srcset="img/catalog/image1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/image1.jpg" alt="image"></picture>
+								<div class="item-product__stock">Акция</div>
+							</a>
+							<a href="product.html" class="item-product__name">Iron copper</a>
+							<div class="item-product__info">
+								<div class="item-product__manufacturer">Neolith</div>
+								<div class="item-product__status">Бесплатная порезка</div>
+							</div>
+						</div>
+						<div class="catalog-stock__item item-product">
+							<a href="product.html" class="item-product__image-ibg">
+								<picture><source data-srcset="img/catalog/image1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/image1.jpg" alt="image"></picture>
+								<div class="item-product__stock">Акция</div>
+							</a>
+							<a href="product.html" class="item-product__name">Iron copper</a>
+							<div class="item-product__info">
+								<div class="item-product__manufacturer">Neolith</div>
+								<div class="item-product__status">Бесплатная порезка</div>
+							</div>
+						</div>
+						<div class="catalog-stock__item item-product">
+							<a href="product.html" class="item-product__image-ibg">
+								<picture><source data-srcset="img/catalog/image1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/image1.jpg" alt="image"></picture>
+								<div class="item-product__stock">Акция</div>
+							</a>
+							<a href="product.html" class="item-product__name">Iron copper</a>
+							<div class="item-product__info">
+								<div class="item-product__manufacturer">Neolith</div>
+								<div class="item-product__status">Бесплатная порезка</div>
+							</div>
+						</div>
+						<div class="catalog-stock__item item-product">
+							<a href="product.html" class="item-product__image-ibg">
+								<picture><source data-srcset="img/catalog/image1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/image1.jpg" alt="image"></picture>
+								<div class="item-product__stock">Акция</div>
+							</a>
+							<a href="product.html" class="item-product__name">Iron copper</a>
+							<div class="item-product__info">
+								<div class="item-product__manufacturer">Neolith</div>
+								<div class="item-product__status">Бесплатная порезка</div>
+							</div>
+						</div>
+						<div class="catalog-stock__item item-product">
+							<a href="product.html" class="item-product__image-ibg">
+								<picture><source data-srcset="img/catalog/image1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/image1.jpg" alt="image"></picture>
+								<div class="item-product__stock">Акция</div>
+							</a>
+							<a href="product.html" class="item-product__name">Iron copper</a>
+							<div class="item-product__info">
+								<div class="item-product__manufacturer">Neolith</div>
+								<div class="item-product__status">Бесплатная порезка</div>
+							</div>
+						</div>
+						<div class="catalog-stock__item item-product">
+							<a href="product.html" class="item-product__image-ibg">
+								<picture><source data-srcset="img/catalog/image1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/image1.jpg" alt="image"></picture>
+								<div class="item-product__stock">Акция</div>
+							</a>
+							<a href="product.html" class="item-product__name">Iron copper</a>
+							<div class="item-product__info">
+								<div class="item-product__manufacturer">Neolith</div>
+								<div class="item-product__status">Бесплатная порезка</div>
+							</div>
+						</div>
+						<div class="catalog-stock__item item-product">
+							<a href="product.html" class="item-product__image-ibg">
+								<picture><source data-srcset="img/catalog/image1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/image1.jpg" alt="image"></picture>
+								<div class="item-product__stock">Акция</div>
+							</a>
+							<a href="product.html" class="item-product__name">Iron copper</a>
+							<div class="item-product__info">
+								<div class="item-product__manufacturer">Neolith</div>
+								<div class="item-product__status">Бесплатная порезка</div>
+							</div>
+						</div>
+						<div class="catalog-stock__item item-product">
+							<a href="product.html" class="item-product__image-ibg">
+								<picture><source data-srcset="img/catalog/image1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/image1.jpg" alt="image"></picture>
+								<div class="item-product__stock">Акция</div>
+							</a>
+							<a href="product.html" class="item-product__name">Iron copper</a>
+							<div class="item-product__info">
+								<div class="item-product__manufacturer">Neolith</div>
+								<div class="item-product__status">Бесплатная порезка</div>
+							</div>
+						</div>
+						<div class="catalog-stock__item item-product">
+							<a href="product.html" class="item-product__image-ibg">
+								<picture><source data-srcset="img/catalog/image1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/image1.jpg" alt="image"></picture>
+								<div class="item-product__stock">Акция</div>
+							</a>
+							<a href="product.html" class="item-product__name">Iron copper</a>
+							<div class="item-product__info">
+								<div class="item-product__manufacturer">Neolith</div>
+								<div class="item-product__status">Бесплатная порезка</div>
+							</div>
+						</div>
+						<div class="catalog-stock__item item-product">
+							<a href="product.html" class="item-product__image-ibg">
+								<picture><source data-srcset="img/catalog/image1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/image1.jpg" alt="image"></picture>
+								<div class="item-product__stock">Акция</div>
+							</a>
+							<a href="product.html" class="item-product__name">Iron copper</a>
+							<div class="item-product__info">
+								<div class="item-product__manufacturer">Neolith</div>
+								<div class="item-product__status">Бесплатная порезка</div>
+							</div>
+						</div>
+					</div>
+					<div class="catalog-stock__footer footer-gallery-pages">
+						<ul class="footer-gallery-pages__list">
+							<li class="footer-gallery-pages__item"><a href="#" class="footer-gallery-pages__arrow-prev disable _icon-small-arrow"></a></li>
+							<li class="footer-gallery-pages__item"><a href="#" class="footer-gallery-pages__link footer-gallery-pages__link_active">1</a></li>
+							<li class="footer-gallery-pages__item"><a href="#" class="footer-gallery-pages__link">2</a></li>
+							<li class="footer-gallery-pages__item"><a href="#" class="footer-gallery-pages__link">3</a></li>
+							<li class="footer-gallery-pages__item">...</li>
+							<li class="footer-gallery-pages__item"><a href="#" class="footer-gallery-pages__link">25</a></li>
+							<li class="footer-gallery-pages__item"><a href="#" class="footer-gallery-pages__arrow-next _icon-small-arrow"></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__logo"><img src="img/logo-color.svg" alt="logo"></div>
+				<div class="footer__content">
+					<nav class="footer__navigation">
+						<ul class="footer__list">
+							<li class="footer__item"><a href="catalog.html" class="footer__link">Каталог</a></li>
+							<li class="footer__item"><a href="gallery.html" class="footer__link">Галерея</a></li>
+							<li class="footer__item"><a href="stock.html" class="footer__link">Акции</a></li>
+							<li class="footer__item"><a href="service.html" class="footer__link">Сервис</a></li>
+						</ul>
+						<ul class="footer__list">
+							<li class="footer__item"><a href="blogs.html" class="footer__link">Статьи</a></li>
+							<li class="footer__item"><a href="about.html" class="footer__link">О нас</a></li>
+							<li class="footer__item"><a href="contacts.html" class="footer__link">Контакты</a></li>
+						</ul>
+					</nav>
+					<div class="footer__social social-footer">
+						<a href="#" class="social-footer__item"><picture><source srcset="img/icons/facebook.webp" type="image/webp"><img src="img/icons/facebook.jpg" alt="facebook"></picture><span>facebook</span></a>
+						<a href="#" class="social-footer__item"><picture><source srcset="img/icons/telegram.webp" type="image/webp"><img src="img/icons/telegram.jpg" alt="telegram"></picture><span>telegram</span></a>
+						<a href="#" class="social-footer__item"><picture><source srcset="img/icons/viber.webp" type="image/webp"><img src="img/icons/viber.jpg" alt="viber"></picture><span>viber</span></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<script src="js/app.min.js?_v=20221113123513"></script>
+</body>
+
+</html>

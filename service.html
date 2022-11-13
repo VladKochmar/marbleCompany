@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Сервис</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20221113123513">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header data-scroll="80" data-scroll-show class="header">
+			<div class="header__container">
+				<a href="index.html" class="header__logo"><img src="img/logo.svg" alt="Логотип UA Quartz"></a>
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="catalog.html" class="menu__link">Каталог</a></li>
+							<li class="menu__item">
+								<a href="gallery.html" class="menu__link menu__link_arrow">Галерея</a>
+								<div class="menu__sublist">
+									<ul class="sublist-menu">
+										<li class="sublist-menu__item"><a href="kitchens.html" class="sublist-menu__link">Кухни</a></li>
+										<li class="sublist-menu__item"><a href="kitchens.html" class="sublist-menu__link">Ванные</a></li>
+										<li class="sublist-menu__item"><a href="kitchens.html" class="sublist-menu__link">Подоконники</a></li>
+										<li class="sublist-menu__item"><a href="kitchens.html" class="sublist-menu__link">Барные стойки</a></li>
+										<li class="sublist-menu__item"><a href="kitchens.html" class="sublist-menu__link">Коммерчиские объекты</a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="menu__item"><a href="stock.html" class="menu__link">Акции</a></li>
+							<li class="menu__item"><a href="service.html" class="menu__link">Сервис</a></li>
+							<li class="menu__item"><a href="blogs.html" class="menu__link">Статьи</a></li>
+							<li class="menu__item">
+								<a href="about.html" class="menu__link menu__link_arrow">О Компании</a>
+								<div class="menu__sublist">
+									<ul class="sublist-menu">
+										<li class="sublist-menu__item"><a href="contacts.html" class="sublist-menu__link">Контакты</a></li>
+										<li class="sublist-menu__item"><a href="partnership.html" class="sublist-menu__link">Партнерство с UA Quartz</a></li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div data-da=".menu__body, 767.98" data-one-select class="header__contacts contacts-header">
+					<div class="contacts-header__selects">
+						<select id="countries" name="form[]" data-class-modif="select-contacts" data-show-selected>
+							<option data-class="select-contacts__item" value="Ukraine" selected>Укр</option>
+							<option data-class="select-contacts__item" value="Poland">Пл</option>
+						</select>
+						<select data-country="Ukraine" name="form[]" data-show-selected data-class-modif="select-contacts">
+							<option data-class="select-contacts__city" value="kyiv" selected>Киев</option>
+							<option data-class="select-contacts__city" value="odessa">Одесса</option>
+							<option data-class="select-contacts__city" value="dnepr">Днепр</option>
+							<option data-class="select-contacts__city" value="lvov">Львов</option>
+							<option data-class="select-contacts__city" value="kharkiv">Харьков</option>
+						</select>
+						<select data-country="Poland" name="form[]" data-show-selected data-class-modif="select-contacts">
+							<option data-class="select-contacts__city" value="warsaw" selected>Варшава</option>
+							<option data-class="select-contacts__city" value="wroclaw">Вроцлав</option>
+						</select>
+					</div>
+					<div class="contacts-header__items">
+						<div id="kyiv" class="contacts-header__phone">
+							<a href="tel:+380675054499" class="contacts-header__number">+38 (067) 505-44-99</a>
+							<a href="tel:+380675014499" class="contacts-header__number">+38 (067) 501-44-99</a>
+						</div>
+						<div id="odessa" class="contacts-header__phone" style="display: none;">
+							<a href="tel:+380938410664" class="contacts-header__number">+38 (093) 841-06-64</a>
+							<a href="tel:+380675014499" class="contacts-header__number">+38 (067) 501-44-99</a>
+						</div>
+						<div id="dnepr" class="contacts-header__phone" style="display: none;">
+							<a href="tel:+380932849550" class="contacts-header__number">+38 (093) 284-95-50</a>
+						</div>
+						<div id="lvov" class="contacts-header__phone" style="display: none;">
+							<a href="tel:+380938410673" class="contacts-header__number">+38 (093) 841-06-73</a>
+						</div>
+						<div id="kharkiv" class="contacts-header__phone" style="display: none;">
+							<a href="tel:+380675054499" class="contacts-header__number">+38 (067) 505-44-99</a>
+						</div>
+						<div id="warsaw" class="contacts-header__phone" style="display: none;">
+							<a href="tel:+480675054499" class="contacts-header__number">+48 (067) 505-44-99</a>
+						</div>
+						<div id="wroclaw" class="contacts-header__phone" style="display: none;">
+							<a href="tel:+480938410673" class="contacts-header__number">+48 (093) 841-06-73</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="service">
+				<div class="service__container">
+					<div class="service__header page-top">
+						<nav class="page-top__pages pages-navigation">
+							<ul class="pages-navigation__list">
+								<li class="pages-navigation__item"><a href="index.html" class="pages-navigation__link">Главная</a></li>
+								<li class="pages-navigation__item"><a href="service.html" class="pages-navigation__link pages-navigation__link_active">Сервис</a></li>
+							</ul>
+						</nav>
+						<h1 class="page-top__title">СЕРВИС</h1>
+					</div>
+					<div class="service__info">
+						<p class="service__text">У нас Вы найдете только бескомпромиссное качество, состоящее из инноваций опытной команды и клиентоориенти­рованного подхода. А мы найдем подход к каждому клиенту и воплотим в жизнь все идеи.</p>
+						<p class="service__text">Наше доброе имя, всеобъемлющая гарантия и чуткость к местным культурным особенностям позволяют обеспечивать высококачественный сервис и продукцию везде, где бы ни находились наши клиенты.</p>
+					</div>
+					<div class="service__items">
+						<div class="service__item item-service">
+							<a href="service-article.html" class="item-service__image-ibg"><picture><source data-srcset="img/service/image.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/service/image.jpg" alt="image"></picture></a>
+							<a href="service-article.html" class="item-service__title">ХАРАКТЕРИСТИКИ КВАРЦЕВЫХ ПОВЕРХНОСТЕЙ</a>
+						</div>
+						<div class="service__item item-service">
+							<a href="service-article.html" class="item-service__image-ibg"><picture><source data-srcset="img/service/image2.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/service/image2.jpg" alt="image"></picture></a>
+							<a href="service-article.html" class="item-service__title">СОВЕТЫ ПО УХОДУ ЗА ПОВЕРХНОСТЯМИ</a>
+						</div>
+						<div class="service__item item-service">
+							<a href="service-article.html" class="item-service__image-ibg"><picture><source data-srcset="img/service/image3.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/service/image3.jpg" alt="image"></picture><picture><source srcset="img/service/quality.webp" type="image/webp"><img src="img/service/quality.png" alt="quality" class="item-service__icon"></picture></a>
+							<a href="service-article.html" class="item-service__title">ОФИЦИАЛЬНАЯ ГАРАНТИЯ</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="questions">
+				<div class="questions__container questions__container_big">
+					<div class="questions__body">
+						<div class="questions__content">
+							<h2 class="questions__title">Остались вопросы?</h2>
+							<div class="questions__text">Напишите нам и мы вам перезвоним</div>
+						</div>
+						<form action="#" method="#" class="questions__form">
+							<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Ваш телефон" class="questions__input input">
+							<button type="submit" class="questions__button button button_arrow">Заказать</button>
+						</form>
+						<picture><source data-srcset="img/service/image-bg.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/service/image-bg.jpg" alt="image" class="questions__image-bg"></picture>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__logo"><img src="img/logo-color.svg" alt="logo"></div>
+				<div class="footer__content">
+					<nav class="footer__navigation">
+						<ul class="footer__list">
+							<li class="footer__item"><a href="catalog.html" class="footer__link">Каталог</a></li>
+							<li class="footer__item"><a href="gallery.html" class="footer__link">Галерея</a></li>
+							<li class="footer__item"><a href="stock.html" class="footer__link">Акции</a></li>
+							<li class="footer__item"><a href="service.html" class="footer__link">Сервис</a></li>
+						</ul>
+						<ul class="footer__list">
+							<li class="footer__item"><a href="blogs.html" class="footer__link">Статьи</a></li>
+							<li class="footer__item"><a href="about.html" class="footer__link">О нас</a></li>
+							<li class="footer__item"><a href="contacts.html" class="footer__link">Контакты</a></li>
+						</ul>
+					</nav>
+					<div class="footer__social social-footer">
+						<a href="#" class="social-footer__item"><picture><source srcset="img/icons/facebook.webp" type="image/webp"><img src="img/icons/facebook.jpg" alt="facebook"></picture><span>facebook</span></a>
+						<a href="#" class="social-footer__item"><picture><source srcset="img/icons/telegram.webp" type="image/webp"><img src="img/icons/telegram.jpg" alt="telegram"></picture><span>telegram</span></a>
+						<a href="#" class="social-footer__item"><picture><source srcset="img/icons/viber.webp" type="image/webp"><img src="img/icons/viber.jpg" alt="viber"></picture><span>viber</span></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<script src="js/app.min.js?_v=20221113123513"></script>
+</body>
+
+</html>

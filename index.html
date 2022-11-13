@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20221113123513">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header data-scroll="80" data-scroll-show class="header">
+			<div class="header__container">
+				<a href="index.html" class="header__logo"><img src="img/logo.svg" alt="Логотип UA Quartz"></a>
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="catalog.html" class="menu__link">Каталог</a></li>
+							<li class="menu__item">
+								<a href="gallery.html" class="menu__link menu__link_arrow">Галерея</a>
+								<div class="menu__sublist">
+									<ul class="sublist-menu">
+										<li class="sublist-menu__item"><a href="kitchens.html" class="sublist-menu__link">Кухни</a></li>
+										<li class="sublist-menu__item"><a href="kitchens.html" class="sublist-menu__link">Ванные</a></li>
+										<li class="sublist-menu__item"><a href="kitchens.html" class="sublist-menu__link">Подоконники</a></li>
+										<li class="sublist-menu__item"><a href="kitchens.html" class="sublist-menu__link">Барные стойки</a></li>
+										<li class="sublist-menu__item"><a href="kitchens.html" class="sublist-menu__link">Коммерчиские объекты</a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="menu__item"><a href="stock.html" class="menu__link">Акции</a></li>
+							<li class="menu__item"><a href="service.html" class="menu__link">Сервис</a></li>
+							<li class="menu__item"><a href="blogs.html" class="menu__link">Статьи</a></li>
+							<li class="menu__item">
+								<a href="about.html" class="menu__link menu__link_arrow">О Компании</a>
+								<div class="menu__sublist">
+									<ul class="sublist-menu">
+										<li class="sublist-menu__item"><a href="contacts.html" class="sublist-menu__link">Контакты</a></li>
+										<li class="sublist-menu__item"><a href="partnership.html" class="sublist-menu__link">Партнерство с UA Quartz</a></li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div data-da=".menu__body, 767.98" data-one-select class="header__contacts contacts-header">
+					<div class="contacts-header__selects">
+						<select id="countries" name="form[]" data-class-modif="select-contacts" data-show-selected>
+							<option data-class="select-contacts__item" value="Ukraine" selected>Укр</option>
+							<option data-class="select-contacts__item" value="Poland">Пл</option>
+						</select>
+						<select data-country="Ukraine" name="form[]" data-show-selected data-class-modif="select-contacts">
+							<option data-class="select-contacts__city" value="kyiv" selected>Киев</option>
+							<option data-class="select-contacts__city" value="odessa">Одесса</option>
+							<option data-class="select-contacts__city" value="dnepr">Днепр</option>
+							<option data-class="select-contacts__city" value="lvov">Львов</option>
+							<option data-class="select-contacts__city" value="kharkiv">Харьков</option>
+						</select>
+						<select data-country="Poland" name="form[]" data-show-selected data-class-modif="select-contacts">
+							<option data-class="select-contacts__city" value="warsaw" selected>Варшава</option>
+							<option data-class="select-contacts__city" value="wroclaw">Вроцлав</option>
+						</select>
+					</div>
+					<div class="contacts-header__items">
+						<div id="kyiv" class="contacts-header__phone">
+							<a href="tel:+380675054499" class="contacts-header__number">+38 (067) 505-44-99</a>
+							<a href="tel:+380675014499" class="contacts-header__number">+38 (067) 501-44-99</a>
+						</div>
+						<div id="odessa" class="contacts-header__phone" style="display: none;">
+							<a href="tel:+380938410664" class="contacts-header__number">+38 (093) 841-06-64</a>
+							<a href="tel:+380675014499" class="contacts-header__number">+38 (067) 501-44-99</a>
+						</div>
+						<div id="dnepr" class="contacts-header__phone" style="display: none;">
+							<a href="tel:+380932849550" class="contacts-header__number">+38 (093) 284-95-50</a>
+						</div>
+						<div id="lvov" class="contacts-header__phone" style="display: none;">
+							<a href="tel:+380938410673" class="contacts-header__number">+38 (093) 841-06-73</a>
+						</div>
+						<div id="kharkiv" class="contacts-header__phone" style="display: none;">
+							<a href="tel:+380675054499" class="contacts-header__number">+38 (067) 505-44-99</a>
+						</div>
+						<div id="warsaw" class="contacts-header__phone" style="display: none;">
+							<a href="tel:+480675054499" class="contacts-header__number">+48 (067) 505-44-99</a>
+						</div>
+						<div id="wroclaw" class="contacts-header__phone" style="display: none;">
+							<a href="tel:+480938410673" class="contacts-header__number">+48 (093) 841-06-73</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="main-swiper-page">
+				<div class="main-swiper-page__slider swiper">
+					<div class="main-swiper-page__wrapper swiper-wrapper">
+						<div class="main-swiper-page__slide swiper-slide slide-swiper-page">
+							<div class="slide-swiper-page__container">
+								<div class="slide-swiper-page__content">
+									<h1 class="slide-swiper-page__title">Лучшие cтолешницы из кварца</h1>
+									<p class="slide-swiper-page__text">В наличии и под заказ</p>
+									<a href="catalog.html" class="slide-swiper-page__button button button_white button_arrow">Подробнее</a>
+									<button type="button" data-popup="#order" class="slide-swiper-page__button button">Закажите бесплатный замер</button>
+								</div>
+								<form action="#" method="#" class="slide-swiper-page__form form-book">
+									<h3 class="form-book__title">Закажите бесплатный замер</h3>
+									<div class="form-book__body">
+										<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Ваше имя" class="form-book__input input input_dark">
+										<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Ваш телефон" class="form-book__input input input_dark">
+										<button type="submit" class="form-book__button button">заказать</button>
+									</div>
+								</form>
+							</div>
+							<picture><source data-srcset="img/home/main-swiper-page/image1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/home/main-swiper-page/image1.jpg" alt="image" class="slide-swiper-page__bg-image swiper-lazy"></picture>
+						</div>
+						<div class="main-swiper-page__slide swiper-slide slide-swiper-page">
+							<div class="slide-swiper-page__container">
+								<div class="slide-swiper-page__content">
+									<h1 class="slide-swiper-page__title">Лучшие cтолешницы из кварца</h1>
+									<p class="slide-swiper-page__text">В наличии и под заказ</p>
+									<a href="catalog.html" class="slide-swiper-page__button button button_white button_arrow">Подробнее</a>
+								</div>
+							</div>
+							<picture><source data-srcset="img/home/main-swiper-page/image2.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/home/main-swiper-page/image2.jpg" alt="image" class="slide-swiper-page__bg-image swiper-lazy"></picture>
+						</div>
+						<div class="main-swiper-page__slide swiper-slide slide-swiper-page">
+							<div class="slide-swiper-page__container">
+								<div class="slide-swiper-page__content">
+									<h2 class="slide-swiper-page__title">Новая коллекция 2023</h2>
+									<p class="slide-swiper-page__text">В наличии и под заказ</p>
+									<a href="catalog.html" class="slide-swiper-page__button button button_white button_arrow">Подробнее</a>
+									<button type="button" data-popup="#order" class="slide-swiper-page__button button">Закажите бесплатный замер</button>
+								</div>
+								<form action="#" method="#" class="slide-swiper-page__form form-book">
+									<h3 class="form-book__title">Закажите бесплатный замер</h3>
+									<div class="form-book__body">
+										<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Ваше имя" class="form-book__input input input_dark">
+										<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Ваш телефон" class="form-book__input input input_dark">
+										<button type="submit" class="form-book__button button">заказать</button>
+									</div>
+								</form>
+							</div>
+							<picture><source data-srcset="img/home/main-swiper-page/image3.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/home/main-swiper-page/image3.jpg" alt="image" class="slide-swiper-page__bg-image swiper-lazy"></picture>
+						</div>
+						<div class="main-swiper-page__slide swiper-slide slide-swiper-page">
+							<div class="slide-swiper-page__container">
+								<div class="slide-swiper-page__content">
+									<h2 class="slide-swiper-page__title">Новая коллекция 2023</h2>
+									<p class="slide-swiper-page__text">В наличии и под заказ</p>
+									<a href="catalog.html" class="slide-swiper-page__button button button_white button_arrow">Подробнее</a>
+								</div>
+							</div>
+							<picture><source data-srcset="img/home/main-swiper-page/image4.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/home/main-swiper-page/image4.png" alt="image" class="slide-swiper-page__bg-image swiper-lazy"></picture>
+						</div>
+						<div class="main-swiper-page__slide swiper-slide slide-swiper-page">
+							<div class="slide-swiper-page__container">
+								<div class="slide-swiper-page__content">
+									<h2 class="slide-swiper-page__title">Новая коллекция 2023</h2>
+									<p class="slide-swiper-page__text">В наличии и под заказ</p>
+									<a href="catalog.html" class="slide-swiper-page__button button button_white button_arrow">Подробнее</a>
+									<button type="button" data-popup="#order" class="slide-swiper-page__button button">Закажите бесплатный замер</button>
+								</div>
+								<form action="#" method="#" class="slide-swiper-page__form form-book">
+									<h3 class="form-book__title">Закажите бесплатный замер</h3>
+									<div class="form-book__body">
+										<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Ваше имя" class="form-book__input input input_dark">
+										<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Ваш телефон" class="form-book__input input input_dark">
+										<button type="submit" class="form-book__button button">заказать</button>
+									</div>
+								</form>
+							</div>
+							<picture><source data-srcset="img/home/main-swiper-page/image5.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/home/main-swiper-page/image5.jpg" alt="image" class="slide-swiper-page__bg-image swiper-lazy"></picture>
+						</div>
+					</div>
+					<div class="swiper-pagination"></div>
+					<button type="button" class="swiper-button-prev"><span class="swiper-button-prev__arrow"></span></button>
+					<button type="button" class="swiper-button-next"><span class="swiper-button-next__arrow"></span></button>
+				</div>
+				<div class="main-swiper-page__info-items">
+					<div class="main-swiper-page__item">
+						<div class="main-swiper-page__box">
+							<p class="main-swiper-page__text">Официальный дилер</p>
+							<picture><source data-srcset="img/caesarstone-logo.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/caesarstone-logo.png" alt="caesarstone logo" class="main-swiper-page__logo"></picture>
+						</div>
+					</div>
+					<div class="main-swiper-page__item">
+						<p class="main-swiper-page__text"><span>18 лет</span> на рынке Украины</p>
+					</div>
+					<div class="main-swiper-page__item">
+						<p class="main-swiper-page__text"><span>10 лет</span> гарантийный сертификат</p>
+					</div>
+					<picture><source srcset="img/bg-white.webp" type="image/webp"><img src="img/bg-white.jpg" alt="background" class="main-swiper-page__background-image"></picture>
+				</div>
+			</section>
+			<section class="products">
+				<div class="products__top top-products">
+					<div class="top-products__container">
+						<h2 class="top-products__title title-main">Продукция</h2>
+						<div class="top-products__content">
+							<div class="top-products__info">В нашем каталоге более <span>3000</span> кварцевых и керамогранитных поверхностей</div>
+							<div class="top-products__text">Раковины из кварцевого агломерата изготавливают клеенным способом. В составе кварцевого агломерата присутствует вещество Р+, являющееся антибактериальным. Именно оно не даёт бактериям размножаться. Такой состав кварцевого агломерата позволяет его использовать мойки из кварцевого камня не только в домашних условиях, но также и на производствах, в ресторанах, цехах и других предприятиях пищевой промышленности. Они станут основным гарантом гигиеничности и безопасности.</div>
+						</div>
+					</div>
+				</div>
+				<div class="products__bottom bottom-products">
+					<div class="bottom-products__container">
+						<div class="bottom-products__slider swiper">
+							<div class="bottom-products__wrapper swiper-wrapper">
+								<div class="bottom-products__slide swiper-slide swiper-products-slide">
+									<a href="catalog.html" class="swiper-products-slide__image-ibg">
+										<picture><source data-srcset="img/home/products/image1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/home/products/image1.jpg" alt="Кухонные столешницы" class="swiper-lazy"></picture>
+										<div class="swiper-products-slide__box">
+											<div class="swiper-products-slide__lable">Кухонные столешницы</div>
+											<div class="swiper-products-slide__arrow _icon-arrow-right"></div>
+										</div>
+									</a>
+									<div class="swiper-products-slide__body">
+										<a href="catalog.html" class="swiper-products-slide__title">Кухонные столешницы</a>
+										<div class="swiper-products-slide__list">
+											<a href="catalog.html" class="swiper-products-slide__item">Ceaserstone</a>
+											<a href="catalog.html" class="swiper-products-slide__item">Supremo</a>
+											<a href="catalog.html" class="swiper-products-slide__item">Concetto</a>
+											<a href="catalog.html" class="swiper-products-slide__item">Quarello</a>
+										</div>
+										<a href="catalog.html" class="swiper-products-slide__link">Смотреть каталог</a>
+										<picture><source srcset="img/home/bg-black.webp" type="image/webp"><img src="img/home/bg-black.jpg" alt="image" class="swiper-products-slide__bg-image"></picture>
+									</div>
+								</div>
+								<div class="bottom-products__slide swiper-slide swiper-products-slide">
+									<a href="catalog.html" class="swiper-products-slide__image-ibg">
+										<picture><source data-srcset="img/home/products/image2.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/home/products/image2.jpg" alt="Кухонные мойки" class="swiper-lazy"></picture>
+										<div class="swiper-products-slide__box">
+											<div class="swiper-products-slide__lable">Кухонные мойки</div>
+											<div class="swiper-products-slide__arrow _icon-arrow-right"></div>
+										</div>
+									</a>
+									<div class="swiper-products-slide__body">
+										<a href="catalog.html" class="swiper-products-slide__title">Кухонные мойки</a>
+										<div class="swiper-products-slide__list">
+											<a href="catalog.html" class="swiper-products-slide__item">Ceaserstone</a>
+											<a href="catalog.html" class="swiper-products-slide__item">Supremo</a>
+											<a href="catalog.html" class="swiper-products-slide__item">Concetto</a>
+											<a href="catalog.html" class="swiper-products-slide__item">Quarello</a>
+										</div>
+										<a href="catalog.html" class="swiper-products-slide__link">Смотреть каталог</a>
+										<picture><source srcset="img/home/bg-black.webp" type="image/webp"><img src="img/home/bg-black.jpg" alt="image" class="swiper-products-slide__bg-image"></picture>
+									</div>
+								</div>
+								<div class="bottom-products__slide swiper-slide swiper-products-slide">
+									<a href="catalog.html" class="swiper-products-slide__image-ibg">
+										<picture><source data-srcset="img/home/products/image3.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/home/products/image3.jpg" alt="Подоконники" class="swiper-lazy"></picture>
+										<div class="swiper-products-slide__box">
+											<div class="swiper-products-slide__lable">Подоконники</div>
+											<div class="swiper-products-slide__arrow _icon-arrow-right"></div>
+										</div>
+									</a>
+									<div class="swiper-products-slide__body">
+										<a href="catalog.html" class="swiper-products-slide__title">Подоконники</a>
+										<div class="swiper-products-slide__list">
+											<a href="catalog.html" class="swiper-products-slide__item">Ceaserstone</a>
+											<a href="catalog.html" class="swiper-products-slide__item">Supremo</a>
+											<a href="catalog.html" class="swiper-products-slide__item">Concetto</a>
+											<a href="catalog.html" class="swiper-products-slide__item">Quarello</a>
+										</div>
+										<a href="catalog.html" class="swiper-products-slide__link">Смотреть каталог</a>
+										<picture><source srcset="img/home/bg-black.webp" type="image/webp"><img src="img/home/bg-black.jpg" alt="image" class="swiper-products-slide__bg-image"></picture>
+									</div>
+								</div>
+								<div class="bottom-products__slide swiper-slide swiper-products-slide">
+									<a href="catalog.html" class="swiper-products-slide__image-ibg">
+										<picture><source data-srcset="img/home/products/image4.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/home/products/image4.jpg" alt="Столешницы С/У" class="swiper-lazy"></picture>
+										<div class="swiper-products-slide__box">
+											<div class="swiper-products-slide__lable">Столешницы С/У</div>
+											<div class="swiper-products-slide__arrow _icon-arrow-right"></div>
+										</div>
+									</a>
+									<div class="swiper-products-slide__body">
+										<a href="catalog.html" class="swiper-products-slide__title">Столешницы С/У</a>
+										<div class="swiper-products-slide__list">
+											<a href="catalog.html" class="swiper-products-slide__item">Ceaserstone</a>
+											<a href="catalog.html" class="swiper-products-slide__item">Supremo</a>
+											<a href="catalog.html" class="swiper-products-slide__item">Concetto</a>
+											<a href="catalog.html" class="swiper-products-slide__item">Quarello</a>
+										</div>
+										<a href="catalog.html" class="swiper-products-slide__link">Смотреть каталог</a>
+										<picture><source srcset="img/home/bg-black.webp" type="image/webp"><img src="img/home/bg-black.jpg" alt="image" class="swiper-products-slide__bg-image"></picture>
+									</div>
+								</div>
+								<div class="bottom-products__slide swiper-slide swiper-products-slide">
+									<a href="catalog.html" class="swiper-products-slide__image-ibg">
+										<picture><source data-srcset="img/home/products/image5.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/home/products/image5.jpg" alt="Островные части" class="swiper-lazy"></picture>
+										<div class="swiper-products-slide__box">
+											<div class="swiper-products-slide__lable">Островные части</div>
+											<div class="swiper-products-slide__arrow _icon-arrow-right"></div>
+										</div>
+									</a>
+									<div class="swiper-products-slide__body">
+										<a href="catalog.html" class="swiper-products-slide__title">Островные части</a>
+										<div class="swiper-products-slide__list">
+											<a href="catalog.html" class="swiper-products-slide__item">Ceaserstone</a>
+											<a href="catalog.html" class="swiper-products-slide__item">Supremo</a>
+											<a href="catalog.html" class="swiper-products-slide__item">Concetto</a>
+											<a href="catalog.html" class="swiper-products-slide__item">Quarello</a>
+										</div>
+										<a href="catalog.html" class="swiper-products-slide__link">Смотреть каталог</a>
+										<picture><source srcset="img/home/bg-black.webp" type="image/webp"><img src="img/home/bg-black.jpg" alt="image" class="swiper-products-slide__bg-image"></picture>
+									</div>
+								</div>
+								<div class="bottom-products__slide swiper-slide swiper-products-slide">
+									<a href="catalog.html" class="swiper-products-slide__image-ibg">
+										<picture><source data-srcset="img/home/products/image6.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/home/products/image6.jpg" alt="Барные стойки" class="swiper-lazy"></picture>
+										<div class="swiper-products-slide__box">
+											<div class="swiper-products-slide__lable">Барные стойки</div>
+											<div class="swiper-products-slide__arrow _icon-arrow-right"></div>
+										</div>
+									</a>
+									<div class="swiper-products-slide__body">
+										<a href="catalog.html" class="swiper-products-slide__title">Барные стойки</a>
+										<div class="swiper-products-slide__list">
+											<a href="catalog.html" class="swiper-products-slide__item">Ceaserstone</a>
+											<a href="catalog.html" class="swiper-products-slide__item">Supremo</a>
+											<a href="catalog.html" class="swiper-products-slide__item">Concetto</a>
+											<a href="catalog.html" class="swiper-products-slide__item">Quarello</a>
+										</div>
+										<a href="catalog.html" class="swiper-products-slide__link">Смотреть каталог</a>
+										<picture><source srcset="img/home/bg-black.webp" type="image/webp"><img src="img/home/bg-black.jpg" alt="image" class="swiper-products-slide__bg-image"></picture>
+									</div>
+								</div>
+							</div>
+							<button type="button" class="bottom-products__swiper-button swiper-button-prev"><span class="swiper-button-prev__arrow swiper-button-prev__arrow_black"></span></button>
+							<button type="button" class="bottom-products__swiper-button swiper-button-next"><span class="swiper-button-next__arrow swiper-button-next__arrow_black"></span></button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section data-prlx-parent class="advantage">
+				<div class="advantage__container">
+					<h2 class="advantage__title title-main">Преимущества кварца и керамогранита</h2>
+					<div class="advantage__content">
+						<div class="advantage__column">
+							<ul class="advantage__list">
+								<li class="advantage__item"><img src="img/icons/plus.svg" alt="plus"><span class="advantage__text">Устойчивость к царапинам</span></li>
+								<li class="advantage__item"><img src="img/icons/plus.svg" alt="plus"><span class="advantage__text">Не остаётся пятен</span></li>
+								<li class="advantage__item"><img src="img/icons/plus.svg" alt="plus"><span class="advantage__text">Невосприимчивость к натуральным кислотам</span></li>
+							</ul>
+						</div>
+						<div class="advantage__column">
+							<ul class="advantage__list">
+								<li class="advantage__item"><img src="img/icons/plus.svg" alt="plus"><span class="advantage__text">Устойчивость к ударам</span></li>
+								<li class="advantage__item"><img src="img/icons/plus.svg" alt="plus"><span class="advantage__text">Не впитывает запахи</span></li>
+								<li class="advantage__item"><img src="img/icons/plus.svg" alt="plus"><span class="advantage__text">Не впитывает влагу</span></li>
+								<li class="advantage__item"><img src="img/icons/plus.svg" alt="plus"><span class="advantage__text">Термостойкость</span></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<picture><source srcset="img/bg-white.webp" type="image/webp"><img src="img/bg-white.jpg" alt="bg" data-prlx></picture>
+			</section>
+			<div class="discount">
+				<div class="discount__container discount__container_big">
+					<div class="discount__column">
+						<div class="discount__content">
+							<div class="discount__text">Посети наш шоурум до конца месяца и получи <span>скидку 20%</span> на кварцевую поверхность </div>
+							<button type="button" data-popup="#discount" class="discount__button button button_arrow">Получить скидку</button>
+							<picture><source srcset="img/home/bg-black.webp" type="image/webp"><img src="img/home/bg-black.jpg" alt="bg" class="discount__bg-image"></picture>
+						</div>
+					</div>
+					<div class="discount__image-ibg"><picture><source srcset="img/home/discount/image.webp" type="image/webp"><img src="img/home/discount/image.jpg" alt="image"></picture></div>
+				</div>
+			</div>
+			<section data-prlx-parent class="new-countertop">
+				<div class="new-countertop__container">
+					<h2 class="new-countertop__title">Новая столешница это очень просто!</h2>
+					<div class="new-countertop__items">
+						<div class="new-countertop__item">
+							<div class="new-countertop__icon"><img src="img/home/new-countertop/icon-1.svg" alt="Расчёт стоимости изделия"></div>
+							<p class="new-countertop__text">Расчёт стоимости изделия</p>
+						</div>
+						<div class="new-countertop__item">
+							<div class="new-countertop__icon"><img src="img/home/new-countertop/icon-2.svg" alt="Снятие размеров"></div>
+							<p class="new-countertop__text">Снятие размеров</p>
+						</div>
+						<div class="new-countertop__item">
+							<div class="new-countertop__icon"><img src="img/home/new-countertop/icon-3.svg" alt="Разработка чертежей и конструктива"></div>
+							<p class="new-countertop__text">Разработка чертежей и конструктива</p>
+						</div>
+						<div class="new-countertop__item">
+							<div class="new-countertop__icon"><img src="img/home/new-countertop/icon-4.svg" alt="Изготовление изделия"></div>
+							<p class="new-countertop__text">Изготовление изделия</p>
+						</div>
+						<div class="new-countertop__item">
+							<div class="new-countertop__icon"><img src="img/home/new-countertop/icon-5.svg" alt="Доставка и монтаж"></div>
+							<p class="new-countertop__text">Доставка и монтаж</p>
+						</div>
+					</div>
+				</div>
+				<picture><source srcset="img/bg-white.webp" type="image/webp"><img src="img/bg-white.jpg" alt="bg" data-prlx></picture>
+			</section>
+			<section class="why-us">
+				<div class="why-us__container why-us__container_big">
+					<h2 class="why-us__title">Почему мы?</h2>
+					<ul class="why-us__list">
+						<li class="why-us__item">
+							<div class="why-us__icon"><img src="img/icons/check.svg" alt="check"></div>
+							<p class="why-us__text">Уже 15 лет на рынке Украины</p>
+						</li>
+						<li class="why-us__item">
+							<div class="why-us__icon"><img src="img/icons/check.svg" alt="check"></div>
+							<p class="why-us__text">Предоставляем услуги по изготовлению поверхностей из кварца , керамики и полудрагоценных материалов</p>
+						</li>
+						<li class="why-us__item">
+							<div class="why-us__icon"><img src="img/icons/check.svg" alt="check"></div>
+							<p class="why-us__text">Бескомпромисcно высокие стандарты качества</p>
+						</li>
+						<li class="why-us__item">
+							<div class="why-us__icon"><img src="img/icons/check.svg" alt="check"></div>
+							<p class="why-us__text">Изготовление изделий любой сложности</p>
+						</li>
+						<li class="why-us__item">
+							<div class="why-us__icon"><img src="img/icons/check.svg" alt="check"></div>
+							<p class="why-us__text">Предоставляем постсервисные услуги от наших специалистов</p>
+						</li>
+					</ul>
+					<picture><source srcset="img/home/why-us/bg-image.webp" type="image/webp"><img src="img/home/why-us/bg-image.jpg" alt="image" class="why-us__bg-image"></picture>
+				</div>
+			</section>
+			<section class="manufacturers">
+				<div class="manufacturers__container">
+					<h2 class="manufacturers__title title-main">Производители</h2>
+					<ul class="manufacturers__list">
+						<li class="manufacturers__item"><picture><source srcset="img/home/manufacturers/caesarstone.webp" type="image/webp"><img src="img/home/manufacturers/caesarstone.png" alt="caesarstone logo"></picture></li>
+						<li class="manufacturers__item"><picture><source srcset="img/home/manufacturers/avant.webp" type="image/webp"><img src="img/home/manufacturers/avant.png" alt="avant logo"></picture></li>
+						<li class="manufacturers__item"><picture><source srcset="img/home/manufacturers/technistone.webp" type="image/webp"><img src="img/home/manufacturers/technistone.png" alt="technistone logo"></picture></li>
+						<li class="manufacturers__item"><picture><source srcset="img/home/manufacturers/laminam.webp" type="image/webp"><img src="img/home/manufacturers/laminam.png" alt="laminam logo"></picture></li>
+						<li class="manufacturers__item"><picture><source srcset="img/home/manufacturers/quarella.webp" type="image/webp"><img src="img/home/manufacturers/quarella.png" alt="quarella logo"></picture></li>
+						<li class="manufacturers__item"><picture><source srcset="img/home/manufacturers/silestone.webp" type="image/webp"><img src="img/home/manufacturers/silestone.png" alt="silestone logo"></picture></li>
+						<li class="manufacturers__item"><picture><source srcset="img/home/manufacturers/santamargherita.webp" type="image/webp"><img src="img/home/manufacturers/santamargherita.png" alt="santamargherita logo"></picture></li>
+						<li class="manufacturers__item"><picture><source srcset="img/home/manufacturers/vicostone.webp" type="image/webp"><img src="img/home/manufacturers/vicostone.png" alt="vicostone logo"></picture></li>
+						<li class="manufacturers__item"><picture><source srcset="img/home/manufacturers/belenco.webp" type="image/webp"><img src="img/home/manufacturers/belenco.png" alt="belenco logo"></picture></li>
+						<li class="manufacturers__item"><picture><source srcset="img/home/manufacturers/laminam.webp" type="image/webp"><img src="img/home/manufacturers/laminam.png" alt="laminam logo"></picture></li>
+						<li class="manufacturers__item"><picture><source srcset="img/home/manufacturers/atem.webp" type="image/webp"><img src="img/home/manufacturers/atem.png" alt="atem logo"></picture></li>
+						<li class="manufacturers__item"><picture><source srcset="img/home/manufacturers/neolith.webp" type="image/webp"><img src="img/home/manufacturers/neolith.png" alt="neolith logo"></picture></li>
+					</ul>
+				</div>
+			</section>
+			<div class="discount discount_mobile-none">
+				<div class="discount__container discount__container_big">
+					<div class="discount__image-ibg"><picture><source srcset="img/home/discount/image2.webp" type="image/webp"><img src="img/home/discount/image2.jpg" alt="image"></picture></div>
+					<div class="discount__column">
+						<div class="discount__content">
+							<div class="discount__text discount__text_black">Закажи столешницу и получи <span>cкидку 50%</span> на кухонные мойки из кварца</div>
+							<form action="#" method="#" class="discount__form">
+								<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Ваш телефон" class="discount__input input">
+								<button type="submit" class="discount__button button button_arrow">Заказать</button>
+							</form>
+							<picture><source srcset="img/bg-white.webp" type="image/webp"><img src="img/bg-white.jpg" alt="bg" class="discount__bg-image"></picture>
+						</div>
+					</div>
+				</div>
+			</div>
+			<section class="about-us">
+				<div class="about-us__container">
+					<div class="about-us__column">
+						<h2 class="about-us__title title-main">О нас</h2>
+						<div class="about-us__text">Более 15 лет компания UA Quartz официально представляет мирового лидера в производстве кварцевых поверхностей CaesarStone® на рынке Украины.</div>
+						<div data-tabs class="about-us__tabs tabs-about-us">
+							<nav data-tabs-titles class="tabs-about-us__navigation">
+								<button type="button" class="tabs-about-us__title _tab-active">История</button>
+								<button type="button" class="tabs-about-us__title">Производство</button>
+								<button type="button" class="tabs-about-us__title">Инвесторы</button>
+							</nav>
+							<div data-tabs-body class="tabs-about-us__content">
+								<div class="tabs-about-us__body">
+									<p class="tabs-about-us__text">Высокотехнологичный процесс производства изделий, высокая точность обработки, безупречное качество отделки, экологически-чистое производство гарантируют уникальные технические решения на рынке изделий из кварцевого камня и керамогранита.</p>
+									<p class="tabs-about-us__text">Высокотехнологичный процесс производства изделий, высокая точность обработки, безупречное качество отделки, экологически-чистое производство гарантируют уникальные технические решения на рынке изделий из кварцевого камня и керамогранита.</p>
+								</div>
+								<div class="tabs-about-us__body">
+									<p class="tabs-about-us__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor rerum corporis suscipit enim eos eligendi! Debitis explicabo, sequi soluta porro, quidem cum, distinctio ratione atque voluptatum ducimus iure modi tempore.</p>
+								</div>
+								<div class="tabs-about-us__body">
+									<p class="tabs-about-us__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit deserunt minima, rerum veritatis accusantium quia porro. Suscipit debitis harum vel eum neque et officiis voluptas accusamus quod, aperiam optio dolorum.</p>
+									<p class="tabs-about-us__text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis dolore dicta recusandae omnis commodi, rem facere itaque ad beatae? Maiores repellat sit provident necessitatibus quaerat, vel doloremque incidunt possimus porro!</p>
+								</div>
+							</div>
+						</div>
+						<a href="about.html" class="about-us__link">Подробнее</a>
+					</div>
+					<div data-da=".about-us__column,767.98,2" class="about-us__image-ibg"><picture><source data-srcset="img/home/about-us/image.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/home/about-us/image.jpg" alt="image"></picture></div>
+				</div>
+			</section>
+			<div class="guarantee">
+				<div class="guarantee__container guarantee__container_big">
+					<div class="guarantee__text">Закажи керамическую поверхность и получи <span>20 лет гарантии</span></div>
+					<form action="#" method="#" class="guarantee__form">
+						<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Ваш телефон" class="guarantee__input input">
+						<button type="submit" class="guarantee__button button button_arrow">Заказать</button>
+					</form>
+					<picture><source data-srcset="img/home/guarantee/image.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/home/guarantee/image.jpg" alt="image" class="guarantee__bg-image"></picture>
+				</div>
+			</div>
+			<section class="contacts">
+				<div class="contacts__container">
+					<h2 class="contacts__title title-main">Контакты</h2>
+					<div class="contacts__body">
+						<div class="contacts__left-column">
+							<div class="contacts__item item-contacts">
+								<div class="item-contacts__city">КИЕВ</div>
+								<div class="item-contacts__address">Центральный офис: ул. Евгения Коновальца, 18/7</div>
+								<div class="item-contacts__info">
+									<a href="tel:+380675054499" class="item-contacts__number">+38 (067) 505-44-99</a>
+									<a href="tel:+380675014499" class="item-contacts__number">+38 (067) 501-44-99</a>
+									<div class="item-contacts__block">E-mail: <a href="office@quartz.ua" class="item-contacts__number">office@quartz.ua</a></div>
+								</div>
+							</div>
+						</div>
+						<div class="contacts__right-column">
+							<div class="contacts__items">
+								<div class="contacts__item item-contacts">
+									<div class="item-contacts__city">ОДЕССА</div>
+									<div class="item-contacts__info">
+										<a href="tel:+380938410664" class="item-contacts__number">+38 (093) 841-06-64</a>
+										<a href="tel:+380675094499" class="item-contacts__number">+38 (067) 509-44-99</a>
+									</div>
+								</div>
+								<div class="contacts__item item-contacts">
+									<div class="item-contacts__city">ДНЕПР</div>
+									<div class="item-contacts__info">
+										<a href="tel:+380932849550" class="item-contacts__number">+38 (093) 284-95-50</a>
+									</div>
+								</div>
+								<div class="contacts__item item-contacts">
+									<div class="item-contacts__city">ЛЬВОВ</div>
+									<div class="item-contacts__info">
+										<a href="tel:+380938410673" class="item-contacts__number">+38 (093) 841-06-73</a>
+									</div>
+								</div>
+								<div class="contacts__item item-contacts">
+									<div class="item-contacts__city">ХАРЬКОВ</div>
+									<div class="item-contacts__info">
+										<a href="tel:+380675054499" class="item-contacts__number">+38 (067) 505-44-99</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__logo"><img src="img/logo-color.svg" alt="logo"></div>
+				<div class="footer__content">
+					<nav class="footer__navigation">
+						<ul class="footer__list">
+							<li class="footer__item"><a href="catalog.html" class="footer__link">Каталог</a></li>
+							<li class="footer__item"><a href="gallery.html" class="footer__link">Галерея</a></li>
+							<li class="footer__item"><a href="stock.html" class="footer__link">Акции</a></li>
+							<li class="footer__item"><a href="service.html" class="footer__link">Сервис</a></li>
+						</ul>
+						<ul class="footer__list">
+							<li class="footer__item"><a href="blogs.html" class="footer__link">Статьи</a></li>
+							<li class="footer__item"><a href="about.html" class="footer__link">О нас</a></li>
+							<li class="footer__item"><a href="contacts.html" class="footer__link">Контакты</a></li>
+						</ul>
+					</nav>
+					<div class="footer__social social-footer">
+						<a href="#" class="social-footer__item"><picture><source srcset="img/icons/facebook.webp" type="image/webp"><img src="img/icons/facebook.jpg" alt="facebook"></picture><span>facebook</span></a>
+						<a href="#" class="social-footer__item"><picture><source srcset="img/icons/telegram.webp" type="image/webp"><img src="img/icons/telegram.jpg" alt="telegram"></picture><span>telegram</span></a>
+						<a href="#" class="social-footer__item"><picture><source srcset="img/icons/viber.webp" type="image/webp"><img src="img/icons/viber.jpg" alt="viber"></picture><span>viber</span></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<style>
+		.header {
+			background: none;
+		}
+	</style>
+
+	<div id="order" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__btn-cont"><button data-close type="button" class="popup__close"></button></div>
+				<h3 class="form-book__title form-book__title_balck">Закажите бесплатный замер</h3>
+				<div class="form-book__body">
+					<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Ваше имя" class="form-book__input input">
+					<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Ваш телефон" class="form-book__input input">
+					<button type="submit" class="form-book__button button">заказать</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="product-miscalculation" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__btn-cont"><button data-close type="button" class="popup__close"></button></div>
+				<h3 class="form-book__title form-book__title_balck">Заказать просчет изделия</h3>
+				<div class="form-book__body">
+					<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Ваше имя" class="form-book__input input">
+					<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Ваш телефон" class="form-book__input input">
+					<button type="submit" class="form-book__button button">заказать</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="discount" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__btn-cont"><button data-close type="button" class="popup__close"></button></div>
+				<h3 class="form-book__title form-book__title_balck">Получите скидку 20%</h3>
+				<div class="form-book__body">
+					<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Ваше имя" class="form-book__input input">
+					<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Ваш телефон" class="form-book__input input">
+					<button type="submit" class="form-book__button button">Отправить</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20221113123513"></script>
+</body>
+
+</html>
