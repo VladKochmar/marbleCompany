@@ -1119,6 +1119,12 @@ body::after {
           transform: rotate(-45deg);
 }
 
+.form__error {
+  padding-top: 0.625rem;
+  color: #ED6726;
+  font-size: 1rem;
+}
+
 .header {
   position: absolute;
   z-index: 100;
@@ -1321,15 +1327,31 @@ body::after {
 }
 
 .social-footer__item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-column-gap: 1.25rem;
-     -moz-column-gap: 1.25rem;
-          column-gap: 1.25rem;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-column-gap: 1.25rem;
+     -moz-column-gap: 1.25rem;
+          column-gap: 1.25rem;
+}
+
+.social-footer__item::before {
+  max-width: 1.5rem;
+}
+
+.social-footer__item_facebook::before {
+  content: url("../img/icons/facebook.jpg");
+}
+
+.social-footer__item_telegram::before {
+  content: url("../img/icons/telegram.jpg");
+}
+
+.social-footer__item_viber::before {
+  content: url("../img/icons/viber.jpg");
 }
 
 .main-swiper-page__slider {
@@ -1669,6 +1691,7 @@ body::after {
 }
 
 .swiper-products-slide__item {
+  display: inline;
   color: #fff;
   line-height: 1.18;
 }
@@ -1731,10 +1754,12 @@ body::after {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  max-width: 16.25rem;
 }
 
-.advantage__text {
-  max-width: 12.5rem;
+.advantage__item::before {
+  content: url("../img/icons/plus.svg");
+  max-width: 2.5rem;
 }
 
 .new-countertop {
@@ -1841,8 +1866,9 @@ body::after {
           align-items: center;
 }
 
-.why-us__text {
-  max-width: 18.5625rem;
+.why-us__item::before {
+  content: url("../img/icons/check.svg");
+  max-width: 2.5rem;
 }
 
 .why-us__bg-image {
@@ -1939,7 +1965,7 @@ body::after {
   font-weight: 400;
 }
 
-.tabs-about-us__text {
+.tabs-about-us__body p {
   line-height: 1.3;
 }
 
@@ -2020,6 +2046,7 @@ body::after {
 }
 
 .item-contacts__address {
+  font-style: normal;
   max-width: 16.25rem;
   line-height: 1.5;
 }
@@ -2175,6 +2202,8 @@ body::after {
 }
 
 .gallery__link {
+  -ms-grid-column-align: start;
+      justify-self: start;
   font-family: "Oswald";
   line-height: 1.5;
   text-transform: uppercase;
@@ -2341,12 +2370,12 @@ body::after {
   max-width: 47.5rem;
 }
 
-.content-article__info:not(:last-child) {
-  margin-bottom: 2.5rem;
+.content-article__info p {
+  line-height: 1.7;
 }
 
-.content-article__text {
-  line-height: 1.7;
+.content-article__info:not(:last-child) {
+  margin-bottom: 2.5rem;
 }
 
 .content-article__image {
@@ -2362,6 +2391,10 @@ body::after {
   display: grid;
   row-gap: 1.25rem;
   max-width: 47.5rem;
+}
+
+.content-article__block p {
+  line-height: 1.7;
 }
 
 .content-article__block:not(:last-child) {
@@ -2764,11 +2797,11 @@ body::after {
   margin-bottom: 1.25rem;
 }
 
-.teamwork__body {
+.teamwork__text {
   max-width: 34.375rem;
 }
 
-.teamwork__text:not(:last-child) {
+.teamwork__text p:not(:last-child) {
   margin-bottom: 1.25rem;
 }
 
@@ -2883,22 +2916,21 @@ body::after {
   -webkit-box-flex: 1;
       -ms-flex: 1 0 50%;
           flex: 1 0 50%;
-  padding: 0 1.25rem;
-  -webkit-column-gap: 1.25rem;
-     -moz-column-gap: 1.25rem;
-          column-gap: 1.25rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-column-gap: 1.25rem;
+     -moz-column-gap: 1.25rem;
+          column-gap: 1.25rem;
+  max-width: 16.25rem;
 }
 
-.reliable-partner__icon {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 2.375rem;
-          flex: 0 0 2.375rem;
+.reliable-partner__item::before {
+  content: url("../img/icons/plus.svg");
+  max-width: 2.5rem;
 }
 
 .available-chamfers__items {
@@ -2949,6 +2981,10 @@ body::after {
   display: grid;
   -ms-grid-columns: (1fr)[4];
   grid-template-columns: repeat(4, 1fr);
+}
+
+.info-product {
+  padding-top: 6.25rem;
 }
 
 .info-product__top {
@@ -4475,11 +4511,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     font-size: 1.375rem;
   }
 
-  .tabs-about-us__text {
+  .tabs-about-us__body p {
     font-size: 1rem;
   }
 
-  .tabs-about-us__text:not(:last-child) {
+  .tabs-about-us__body p:not(:last-child) {
     margin-bottom: 1.875rem;
   }
 
@@ -4587,11 +4623,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     margin-bottom: 3.125rem;
   }
 
-  .service__info:not(:last-child) {
+  .service__text:not(:last-child) {
     margin-bottom: 5rem;
   }
 
-  .service__text:not(:last-child) {
+  .service__text p:not(:last-child) {
     margin-bottom: 2.5rem;
   }
 
@@ -5223,11 +5259,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     font-size: 1rem;
   }
 
-  .tabs-about-us__text {
+  .tabs-about-us__body p {
     font-size: 0.875rem;
   }
 
-  .tabs-about-us__text:not(:last-child) {
+  .tabs-about-us__body p:not(:last-child) {
     margin-bottom: 1.25rem;
   }
 
@@ -5359,11 +5395,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     margin-bottom: 2.5rem;
   }
 
-  .service__info:not(:last-child) {
+  .service__text:not(:last-child) {
     margin-bottom: 2.5rem;
   }
 
-  .service__text:not(:last-child) {
+  .service__text p:not(:last-child) {
     margin-bottom: 1.875rem;
   }
 
@@ -6086,7 +6122,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   .footer__list {
     justify-items: center;
     row-gap: 1.5625rem;
-    border-bottom: 0.0625rem solid #C4C4C4;
+    border-bottom: 0.0625rem solid #c4c4c4;
     padding-bottom: 1.5625rem;
   }
 
@@ -6392,7 +6428,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     height: 1.75rem;
   }
 
-  .service__info:not(:last-child) {
+  .service__text:not(:last-child) {
     margin-bottom: 1.875rem;
   }
 
@@ -7196,25 +7232,25 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 }
 
 @supports (font-size: clamp( 0.875rem , 0.6301020408rem  +  0.5102040816vw , 1rem )) {
-    .tabs-about-us__text {
+    .tabs-about-us__body p {
       font-size: clamp( 0.875rem , 0.6301020408rem  +  0.5102040816vw , 1rem );
     }
 }
 
 @supports not (font-size: clamp( 0.875rem , 0.6301020408rem  +  0.5102040816vw , 1rem )) {
-    .tabs-about-us__text {
+    .tabs-about-us__body p {
       font-size: calc(0.875rem + 0.125 * (100vw - 48rem) / 24.5);
     }
 }
 
 @supports (margin-bottom: clamp( 1.25rem , 0.0255102041rem  +  2.5510204082vw , 1.875rem )) {
-    .tabs-about-us__text:not(:last-child) {
+    .tabs-about-us__body p:not(:last-child) {
       margin-bottom: clamp( 1.25rem , 0.0255102041rem  +  2.5510204082vw , 1.875rem );
     }
 }
 
 @supports not (margin-bottom: clamp( 1.25rem , 0.0255102041rem  +  2.5510204082vw , 1.875rem )) {
-    .tabs-about-us__text:not(:last-child) {
+    .tabs-about-us__body p:not(:last-child) {
       margin-bottom: calc(1.25rem + 0.625 * (100vw - 48rem) / 24.5);
     }
 }
@@ -7532,25 +7568,25 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 }
 
 @supports (margin-bottom: clamp( 2.5rem , -2.3979591837rem  +  10.2040816327vw , 5rem )) {
-    .service__info:not(:last-child) {
+    .service__text:not(:last-child) {
       margin-bottom: clamp( 2.5rem , -2.3979591837rem  +  10.2040816327vw , 5rem );
     }
 }
 
 @supports not (margin-bottom: clamp( 2.5rem , -2.3979591837rem  +  10.2040816327vw , 5rem )) {
-    .service__info:not(:last-child) {
+    .service__text:not(:last-child) {
       margin-bottom: calc(2.5rem + 2.5 * (100vw - 48rem) / 24.5);
     }
 }
 
 @supports (margin-bottom: clamp( 1.875rem , 0.6505102041rem  +  2.5510204082vw , 2.5rem )) {
-    .service__text:not(:last-child) {
+    .service__text p:not(:last-child) {
       margin-bottom: clamp( 1.875rem , 0.6505102041rem  +  2.5510204082vw , 2.5rem );
     }
 }
 
 @supports not (margin-bottom: clamp( 1.875rem , 0.6505102041rem  +  2.5510204082vw , 2.5rem )) {
-    .service__text:not(:last-child) {
+    .service__text p:not(:last-child) {
       margin-bottom: calc(1.875rem + 0.625 * (100vw - 48rem) / 24.5);
     }
 }

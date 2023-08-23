@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
-	<title>Каталог</title>
+	<title>Catalog</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20221113123513">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230823133935">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,28 +21,28 @@
 					<button type="button" class="menu__icon icon-menu"><span></span></button>
 					<nav class="menu__body">
 						<ul class="menu__list">
-							<li class="menu__item"><a href="catalog.html" class="menu__link">Каталог</a></li>
+							<li class="menu__item"><a href="catalog.html" class="menu__link">Catalog</a></li>
 							<li class="menu__item">
-								<a href="gallery.html" class="menu__link menu__link_arrow">Галерея</a>
+								<a href="index.html" class="menu__link menu__link_arrow">Home</a>
 								<div class="menu__sublist">
 									<ul class="sublist-menu">
-										<li class="sublist-menu__item"><a href="kitchens.html" class="sublist-menu__link">Кухни</a></li>
-										<li class="sublist-menu__item"><a href="kitchens.html" class="sublist-menu__link">Ванные</a></li>
-										<li class="sublist-menu__item"><a href="kitchens.html" class="sublist-menu__link">Подоконники</a></li>
-										<li class="sublist-menu__item"><a href="kitchens.html" class="sublist-menu__link">Барные стойки</a></li>
-										<li class="sublist-menu__item"><a href="kitchens.html" class="sublist-menu__link">Коммерчиские объекты</a></li>
+										<li class="sublist-menu__item"><a href="kitchens.html" class="sublist-menu__link">Kitchens</a></li>
+										<li class="sublist-menu__item"><a href="#" class="sublist-menu__link">Bathrooms</a></li>
+										<li class="sublist-menu__item"><a href="#" class="sublist-menu__link">Window sills</a></li>
+										<li class="sublist-menu__item"><a href="#" class="sublist-menu__link">Bar counters</a></li>
+										<li class="sublist-menu__item"><a href="#" class="sublist-menu__link">Commercial objects</a></li>
 									</ul>
 								</div>
 							</li>
-							<li class="menu__item"><a href="stock.html" class="menu__link">Акции</a></li>
-							<li class="menu__item"><a href="service.html" class="menu__link">Сервис</a></li>
-							<li class="menu__item"><a href="blogs.html" class="menu__link">Статьи</a></li>
+							<li class="menu__item"><a href="stock.html" class="menu__link">Stock</a></li>
+							<li class="menu__item"><a href="service.html" class="menu__link">Service</a></li>
+							<li class="menu__item"><a href="blogs.html" class="menu__link">Blogs</a></li>
 							<li class="menu__item">
-								<a href="about.html" class="menu__link menu__link_arrow">О Компании</a>
+								<a href="about.html" class="menu__link menu__link_arrow">About company</a>
 								<div class="menu__sublist">
 									<ul class="sublist-menu">
-										<li class="sublist-menu__item"><a href="contacts.html" class="sublist-menu__link">Контакты</a></li>
-										<li class="sublist-menu__item"><a href="partnership.html" class="sublist-menu__link">Партнерство с UA Quartz</a></li>
+										<li class="sublist-menu__item"><a href="contacts.html" class="sublist-menu__link">Contacts</a></li>
+										<li class="sublist-menu__item"><a href="partnership.html" class="sublist-menu__link">Partnership</a></li>
 									</ul>
 								</div>
 							</li>
@@ -52,44 +52,44 @@
 				<div data-da=".menu__body, 767.98" data-one-select class="header__contacts contacts-header">
 					<div class="contacts-header__selects">
 						<select id="countries" name="form[]" data-class-modif="select-contacts" data-show-selected>
-							<option data-class="select-contacts__item" value="Ukraine" selected>Укр</option>
-							<option data-class="select-contacts__item" value="Poland">Пл</option>
+							<option data-class="select-contacts__item" value="Ukraine" selected>Uk</option>
+							<option data-class="select-contacts__item" value="Poland">Pl</option>
 						</select>
 						<select data-country="Ukraine" name="form[]" data-show-selected data-class-modif="select-contacts">
-							<option data-class="select-contacts__city" value="kyiv" selected>Киев</option>
-							<option data-class="select-contacts__city" value="odessa">Одесса</option>
-							<option data-class="select-contacts__city" value="dnepr">Днепр</option>
-							<option data-class="select-contacts__city" value="lvov">Львов</option>
-							<option data-class="select-contacts__city" value="kharkiv">Харьков</option>
+							<option data-class="select-contacts__city" value="Kyiv" selected>Kyiv</option>
+							<option data-class="select-contacts__city" value="Odesa">Odesa</option>
+							<option data-class="select-contacts__city" value="Dnipro">Dnipro</option>
+							<option data-class="select-contacts__city" value="Lviv">Lviv</option>
+							<option data-class="select-contacts__city" value="Kharkiv">Kharkiv</option>
 						</select>
 						<select data-country="Poland" name="form[]" data-show-selected data-class-modif="select-contacts">
-							<option data-class="select-contacts__city" value="warsaw" selected>Варшава</option>
-							<option data-class="select-contacts__city" value="wroclaw">Вроцлав</option>
+							<option data-class="select-contacts__city" value="Warsaw" selected>Warsaw</option>
+							<option data-class="select-contacts__city" value="Wroclaw">Wroclaw</option>
 						</select>
 					</div>
 					<div class="contacts-header__items">
-						<div id="kyiv" class="contacts-header__phone">
-							<a href="tel:+380675054499" class="contacts-header__number">+38 (067) 505-44-99</a>
-							<a href="tel:+380675014499" class="contacts-header__number">+38 (067) 501-44-99</a>
+						<div id="Kyiv" class="contacts-header__phone">
+							<a href="tel:+380674444444" class="contacts-header__number">+38 (067) 444-44-44</a>
+							<a href="tel:+380675555555" class="contacts-header__number">+38 (067) 555-55-55</a>
 						</div>
-						<div id="odessa" class="contacts-header__phone" style="display: none;">
-							<a href="tel:+380938410664" class="contacts-header__number">+38 (093) 841-06-64</a>
-							<a href="tel:+380675014499" class="contacts-header__number">+38 (067) 501-44-99</a>
+						<div id="Odesa" class="contacts-header__phone" style="display: none;">
+							<a href="tel:+380939999999" class="contacts-header__number">+38 (093) 999-99-99</a>
+							<a href="tel:+380676666666" class="contacts-header__number">+38 (067) 666-66-66</a>
 						</div>
-						<div id="dnepr" class="contacts-header__phone" style="display: none;">
-							<a href="tel:+380932849550" class="contacts-header__number">+38 (093) 284-95-50</a>
+						<div id="Dnipro" class="contacts-header__phone" style="display: none;">
+							<a href="tel:+380932222222" class="contacts-header__number">+38 (093) 222-22-22</a>
 						</div>
-						<div id="lvov" class="contacts-header__phone" style="display: none;">
-							<a href="tel:+380938410673" class="contacts-header__number">+38 (093) 841-06-73</a>
+						<div id="Lviv" class="contacts-header__phone" style="display: none;">
+							<a href="tel:+380938888888" class="contacts-header__number">+38 (093) 888-88-88</a>
 						</div>
-						<div id="kharkiv" class="contacts-header__phone" style="display: none;">
-							<a href="tel:+380675054499" class="contacts-header__number">+38 (067) 505-44-99</a>
+						<div id="Kharkiv" class="contacts-header__phone" style="display: none;">
+							<a href="tel:+380677777777" class="contacts-header__number">+38 (067) 777-77-77</a>
 						</div>
-						<div id="warsaw" class="contacts-header__phone" style="display: none;">
-							<a href="tel:+480675054499" class="contacts-header__number">+48 (067) 505-44-99</a>
+						<div id="Warsaw" class="contacts-header__phone" style="display: none;">
+							<a href="tel:+48505445995" class="contacts-header__number">+48 505-445-995</a>
 						</div>
-						<div id="wroclaw" class="contacts-header__phone" style="display: none;">
-							<a href="tel:+480938410673" class="contacts-header__number">+48 (093) 841-06-73</a>
+						<div id="Wroclaw" class="contacts-header__phone" style="display: none;">
+							<a href="tel:+48841061734" class="contacts-header__number">+48 841-061-734</a>
 						</div>
 					</div>
 				</div>
@@ -101,8 +101,8 @@
 					<div class="catalog__header page-top">
 						<nav class="page-top__pages pages-navigation">
 							<ul class="pages-navigation__list ">
-								<li class="pages-navigation__item"><a href="index.html" class="pages-navigation__link">Главная</a></li>
-								<li class="pages-navigation__item"><a href="catalog.html" class="pages-navigation__link pages-navigation__link_active">Каталог</a></li>
+								<li class="pages-navigation__item"><a href="index.html" class="pages-navigation__link">Home</a></li>
+								<li class="pages-navigation__item"><a href="#" class="pages-navigation__link pages-navigation__link_active">Catalog</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -112,16 +112,16 @@
 								<button type="button" class="sidebar-catalog__cross"><span class="sidebar-catalog__lines"></span></button>
 								<div class="sidebar-catalog__body">
 									<div class="sidebar-catalog__item">
-										<h4 class="sidebar-catalog__title sidebar-catalog__title_no-arrow">Найти</h4>
-										<div class="sidebar-catalog__search"><input id="search" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Поиск товаров" class="sidebar-catalog__input-search"><label for="search" class="sidebar-catalog__lable _icon-search"></label></div>
+										<h4 class="sidebar-catalog__title sidebar-catalog__title_no-arrow">Search</h4>
+										<label class="sidebar-catalog__search"><input id="search" autocomplete="off" type="text" name="search" placeholder="Search" class="sidebar-catalog__input-search"><label for="search" class="sidebar-catalog__lable _icon-search"></label></label>
 									</div>
 									<div data-spollers class="sidebar-catalog__item">
-										<button type="button" data-spoller class="sidebar-catalog__title">Цвета</button>
+										<button type="button" data-spoller class="sidebar-catalog__title">Colors</button>
 										<div class="sidebar-catalog__box">
 											<div class="color-options">
 												<div class="color-options__all-colors">
-													<input id="all-colors" class="color-options__input" checked type="radio" value="Все цвета" name="colors">
-													<label for="all-colors" class="color-options__all-colors-lable">Все цвета</label>
+													<input id="all-colors" class="color-options__input" checked type="radio" value="All colors" name="colors">
+													<label for="all-colors" class="color-options__all-colors-lable">All colors</label>
 												</div>
 												<div class="color-options__body">
 													<div class="color-options__item">
@@ -177,12 +177,12 @@
 										</div>
 									</div>
 									<div data-spollers class="sidebar-catalog__item">
-										<button type="button" data-spoller class="sidebar-catalog__title">Производители</button>
+										<button type="button" data-spoller class="sidebar-catalog__title">Manufacturers</button>
 										<div class="sidebar-catalog__box">
 											<div class="options">
 												<div class="options__item">
-													<input id="all-manufacturers" class="options__input" checked type="radio" value="Все производители" name="manufacturers">
-													<label for="all-manufacturers" class="options__label"><span class="options__text">Все производители</span></label>
+													<input id="all-manufacturers" class="options__input" checked type="radio" value="All manufacturers" name="manufacturers">
+													<label for="all-manufacturers" class="options__label"><span class="options__text">All manufacturers</span></label>
 												</div>
 												<div class="options__item">
 													<input id="caesarstone" class="options__input" type="radio" value="Caesarstone" name="manufacturers">
@@ -224,35 +224,35 @@
 										</div>
 									</div>
 									<div data-spollers class="sidebar-catalog__item">
-										<button type="button" data-spoller class="sidebar-catalog__title">Материал</button>
+										<button type="button" data-spoller class="sidebar-catalog__title">Material</button>
 										<div class="sidebar-catalog__box">
 											<div class="options">
 												<div class="options__item">
-													<input id="all-materials" class="options__input" checked type="radio" value="Все материалы" name="material">
-													<label for="all-materials" class="options__label"><span class="options__text">Все материалы</span></label>
+													<input id="all-materials" class="options__input" checked type="radio" value="All materials" name="material">
+													<label for="all-materials" class="options__label"><span class="options__text">All materials</span></label>
 												</div>
 												<div class="options__item">
-													<input id="ceramics" class="options__input" type="radio" value="Керамика" name="material">
-													<label for="ceramics" class="options__label"><span class="options__text">Керамика</span></label>
+													<input id="ceramics" class="options__input" type="radio" value="Ceramics" name="material">
+													<label for="ceramics" class="options__label"><span class="options__text">Ceramics</span></label>
 												</div>
 												<div class="options__item">
-													<input id="quartz" class="options__input" type="radio" value="Кварц" name="material">
-													<label for="quartz" class="options__label"><span class="options__text">Кварц</span></label>
+													<input id="quartz" class="options__input" type="radio" value="Quartz" name="material">
+													<label for="quartz" class="options__label"><span class="options__text">Quartz</span></label>
 												</div>
 												<div class="options__item">
-													<input id="marble" class="options__input" type="radio" value="Мрамор" name="material">
-													<label for="marble" class="options__label"><span class="options__text">Мрамор</span></label>
+													<input id="marble" class="options__input" type="radio" value="Marble" name="material">
+													<label for="marble" class="options__label"><span class="options__text">Marble</span></label>
 												</div>
 											</div>
 										</div>
 									</div>
 									<div data-spollers class="sidebar-catalog__item">
-										<button type="button" data-spoller class="sidebar-catalog__title">Толщина</button>
+										<button type="button" data-spoller class="sidebar-catalog__title">Thickness</button>
 										<div class="sidebar-catalog__box">
 											<div class="options">
 												<div class="options__item">
-													<input id="all-thicknesses" class="options__input" checked type="radio" value="Все толщины" name="thickness">
-													<label for="all-thicknesses" class="options__label"><span class="options__text">Все толщины</span></label>
+													<input id="all-thicknesses" class="options__input" checked type="radio" value="All thicknesses" name="thickness">
+													<label for="all-thicknesses" class="options__label"><span class="options__text">All thicknesses</span></label>
 												</div>
 												<div class="options__item">
 													<input id="six-millimeters" class="options__input" type="radio" value="6мм" name="thickness">
@@ -270,35 +270,35 @@
 										</div>
 									</div>
 									<div data-spollers class="sidebar-catalog__item">
-										<button type="button" data-spoller class="sidebar-catalog__title">Поверхность</button>
+										<button type="button" data-spoller class="sidebar-catalog__title">Surface</button>
 										<div class="sidebar-catalog__box">
 											<div class="options">
 												<div class="options__item">
-													<input id="all-surface" class="options__input" checked type="radio" value="Все поверхности" name="surface">
-													<label for="all-surface" class="options__label"><span class="options__text">Все поверхности</span></label>
+													<input id="all-surface" class="options__input" checked type="radio" value="All surfaces" name="surface">
+													<label for="all-surface" class="options__label"><span class="options__text">All surfaces</span></label>
 												</div>
 												<div class="options__item">
-													<input id="glossy" class="options__input" type="radio" value="Глянцевая" name="surface">
-													<label for="glossy" class="options__label"><span class="options__text">Глянцевая</span></label>
+													<input id="glossy" class="options__input" type="radio" value="Glossy" name="surface">
+													<label for="glossy" class="options__label"><span class="options__text">Glossy</span></label>
 												</div>
 												<div class="options__item">
-													<input id="matte" class="options__input" type="radio" value="Матовая" name="surface">
-													<label for="matte" class="options__label"><span class="options__text">Матовая</span></label>
+													<input id="matte" class="options__input" type="radio" value="Matte" name="surface">
+													<label for="matte" class="options__label"><span class="options__text">Matte</span></label>
 												</div>
 												<div class="options__item">
-													<input id="chenille" class="options__input" type="radio" value="Ченилле" name="surface">
-													<label for="chenille" class="options__label"><span class="options__text">Ченилле</span></label>
+													<input id="chenille" class="options__input" type="radio" value="Chenille" name="surface">
+													<label for="chenille" class="options__label"><span class="options__text">Chenille</span></label>
 												</div>
 											</div>
 										</div>
 									</div>
 									<div data-spollers class="sidebar-catalog__item">
-										<button type="button" data-spoller class="sidebar-catalog__title">Размеры</button>
+										<button type="button" data-spoller class="sidebar-catalog__title">Sizes</button>
 										<div class="sidebar-catalog__box">
 											<div class="options">
 												<div class="options__item">
-													<input id="all-dimensions" class="options__input" checked type="radio" value="Все размеры" name="dimensions">
-													<label for="all-dimensions" class="options__label"><span class="options__text">Все размеры</span></label>
+													<input id="all-dimensions" class="options__input" checked type="radio" value="All sizes" name="dimensions">
+													<label for="all-dimensions" class="options__label"><span class="options__text">All sizes</span></label>
 												</div>
 												<div class="options__item">
 													<input id="o_1" class="options__input" type="radio" value="3200х1500" name="dimensions">
@@ -317,178 +317,178 @@
 									</div>
 								</div>
 								<div class="sidebar-catalog__footer">
-									<button type="submit" class="sidebar-catalog__button button button_border">Применить</button>
-									<button type="reset" class="sidebar-catalog__reset">Сбросить фильтр</button>
+									<button type="submit" class="sidebar-catalog__button button button_border">Submit</button>
+									<button type="reset" class="sidebar-catalog__reset">Reset filter</button>
 								</div>
 							</form>
 						</aside>
 						<div class="catalog__body body-catalog">
-							<h1 class="body-catalog__title">Каталог. Кварцевые поверхности Quarella</h1>
-							<button type="button" class="body-catalog__filter-button button button_arrow">фильтры</button>
+							<h1 class="body-catalog__title">Catalog. Lorem ipsum dolor</h1>
+							<button type="button" class="body-catalog__filter-button button button_arrow">filters</button>
 							<div class="body-catalog__items">
 								<div class="body-catalog__item item-product">
 									<a href="product.html" class="item-product__image-ibg">
 										<picture><source data-srcset="img/catalog/image1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/image1.jpg" alt="image"></picture>
-										<div class="item-product__stock">Акция</div>
+										<div class="item-product__stock">Discount</div>
 									</a>
-									<a href="product.html" class="item-product__name">Iron copper</a>
+									<a href="product.html" class="item-product__name">Lorem ipsum</a>
 									<div class="item-product__info">
-										<div class="item-product__manufacturer">Neolith</div>
-										<div class="item-product__status">Бесплатная порезка</div>
+										<span class="item-product__manufacturer">Neolith</span>
+										<span class="item-product__status">Free cutting</span>
 									</div>
 								</div>
 								<div class="body-catalog__item item-product">
 									<a href="product.html" class="item-product__image-ibg">
 										<picture><source data-srcset="img/catalog/image1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/image1.jpg" alt="image"></picture>
-										<div class="item-product__stock">Акция</div>
+										<div class="item-product__stock">Discount</div>
 									</a>
-									<a href="product.html" class="item-product__name">Iron copper</a>
+									<a href="product.html" class="item-product__name">Lorem ipsum</a>
 									<div class="item-product__info">
-										<div class="item-product__manufacturer">Neolith</div>
-										<div class="item-product__status">Бесплатная порезка</div>
+										<span class="item-product__manufacturer">Neolith</span>
+										<span class="item-product__status">Free cutting</span>
 									</div>
 								</div>
 								<div class="body-catalog__item item-product">
 									<a href="product.html" class="item-product__image-ibg">
 										<picture><source data-srcset="img/catalog/image1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/image1.jpg" alt="image"></picture>
-										<div class="item-product__stock">Акция</div>
+										<div class="item-product__stock">Discount</div>
 									</a>
-									<a href="product.html" class="item-product__name">Iron copper</a>
+									<a href="product.html" class="item-product__name">Lorem ipsum</a>
 									<div class="item-product__info">
-										<div class="item-product__manufacturer">Neolith</div>
-										<div class="item-product__status">Бесплатная порезка</div>
+										<span class="item-product__manufacturer">Neolith</span>
+										<span class="item-product__status">Free cutting</span>
 									</div>
 								</div>
 								<div class="body-catalog__item item-product">
 									<a href="product.html" class="item-product__image-ibg">
 										<picture><source data-srcset="img/catalog/image1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/image1.jpg" alt="image"></picture>
-										<div class="item-product__stock">Акция</div>
+										<div class="item-product__stock">Discount</div>
 									</a>
-									<a href="product.html" class="item-product__name">Iron copper</a>
+									<a href="product.html" class="item-product__name">Lorem ipsum</a>
 									<div class="item-product__info">
-										<div class="item-product__manufacturer">Neolith</div>
-										<div class="item-product__status">Бесплатная порезка</div>
+										<span class="item-product__manufacturer">Neolith</span>
+										<span class="item-product__status">Free cutting</span>
 									</div>
 								</div>
 								<div class="body-catalog__item item-product">
 									<a href="product.html" class="item-product__image-ibg">
 										<picture><source data-srcset="img/catalog/image1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/image1.jpg" alt="image"></picture>
-										<div class="item-product__stock">Акция</div>
+										<div class="item-product__stock">Discount</div>
 									</a>
-									<a href="product.html" class="item-product__name">Iron copper</a>
+									<a href="product.html" class="item-product__name">Lorem ipsum</a>
 									<div class="item-product__info">
-										<div class="item-product__manufacturer">Neolith</div>
-										<div class="item-product__status">Бесплатная порезка</div>
+										<span class="item-product__manufacturer">Neolith</span>
+										<span class="item-product__status">Free cutting</span>
 									</div>
 								</div>
 								<div class="body-catalog__item item-product">
 									<a href="product.html" class="item-product__image-ibg">
 										<picture><source data-srcset="img/catalog/image1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/image1.jpg" alt="image"></picture>
-										<div class="item-product__stock">Акция</div>
+										<div class="item-product__stock">Discount</div>
 									</a>
-									<a href="product.html" class="item-product__name">Iron copper</a>
+									<a href="product.html" class="item-product__name">Lorem ipsum</a>
 									<div class="item-product__info">
-										<div class="item-product__manufacturer">Neolith</div>
-										<div class="item-product__status">Бесплатная порезка</div>
+										<span class="item-product__manufacturer">Neolith</span>
+										<span class="item-product__status">Free cutting</span>
 									</div>
 								</div>
 								<div class="body-catalog__item item-product">
 									<a href="product.html" class="item-product__image-ibg">
 										<picture><source data-srcset="img/catalog/image1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/image1.jpg" alt="image"></picture>
-										<div class="item-product__stock">Акция</div>
+										<div class="item-product__stock">Discount</div>
 									</a>
-									<a href="product.html" class="item-product__name">Iron copper</a>
+									<a href="product.html" class="item-product__name">Lorem ipsum</a>
 									<div class="item-product__info">
-										<div class="item-product__manufacturer">Neolith</div>
-										<div class="item-product__status">Бесплатная порезка</div>
+										<span class="item-product__manufacturer">Neolith</span>
+										<span class="item-product__status">Free cutting</span>
 									</div>
 								</div>
 								<div class="body-catalog__item item-product">
 									<a href="product.html" class="item-product__image-ibg">
 										<picture><source data-srcset="img/catalog/image1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/image1.jpg" alt="image"></picture>
-										<div class="item-product__stock">Акция</div>
+										<div class="item-product__stock">Discount</div>
 									</a>
-									<a href="product.html" class="item-product__name">Iron copper</a>
+									<a href="product.html" class="item-product__name">Lorem ipsum</a>
 									<div class="item-product__info">
-										<div class="item-product__manufacturer">Neolith</div>
-										<div class="item-product__status">Бесплатная порезка</div>
+										<span class="item-product__manufacturer">Neolith</span>
+										<span class="item-product__status">Free cutting</span>
 									</div>
 								</div>
 								<div class="body-catalog__item item-product">
 									<a href="product.html" class="item-product__image-ibg">
 										<picture><source data-srcset="img/catalog/image1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/image1.jpg" alt="image"></picture>
-										<div class="item-product__stock">Акция</div>
+										<div class="item-product__stock">Discount</div>
 									</a>
-									<a href="product.html" class="item-product__name">Iron copper</a>
+									<a href="product.html" class="item-product__name">Lorem ipsum</a>
 									<div class="item-product__info">
-										<div class="item-product__manufacturer">Neolith</div>
-										<div class="item-product__status">Бесплатная порезка</div>
+										<span class="item-product__manufacturer">Neolith</span>
+										<span class="item-product__status">Free cutting</span>
 									</div>
 								</div>
 								<div class="body-catalog__item item-product">
 									<a href="product.html" class="item-product__image-ibg">
 										<picture><source data-srcset="img/catalog/image1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/image1.jpg" alt="image"></picture>
-										<div class="item-product__stock">Акция</div>
+										<div class="item-product__stock">Discount</div>
 									</a>
-									<a href="product.html" class="item-product__name">Iron copper</a>
+									<a href="product.html" class="item-product__name">Lorem ipsum</a>
 									<div class="item-product__info">
-										<div class="item-product__manufacturer">Neolith</div>
-										<div class="item-product__status">Бесплатная порезка</div>
+										<span class="item-product__manufacturer">Neolith</span>
+										<span class="item-product__status">Free cutting</span>
 									</div>
 								</div>
 								<div class="body-catalog__item item-product">
 									<a href="product.html" class="item-product__image-ibg">
 										<picture><source data-srcset="img/catalog/image1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/image1.jpg" alt="image"></picture>
-										<div class="item-product__stock">Акция</div>
+										<div class="item-product__stock">Discount</div>
 									</a>
-									<a href="product.html" class="item-product__name">Iron copper</a>
+									<a href="product.html" class="item-product__name">Lorem ipsum</a>
 									<div class="item-product__info">
-										<div class="item-product__manufacturer">Neolith</div>
-										<div class="item-product__status">Бесплатная порезка</div>
+										<span class="item-product__manufacturer">Neolith</span>
+										<span class="item-product__status">Free cutting</span>
 									</div>
 								</div>
 								<div class="body-catalog__item item-product">
 									<a href="product.html" class="item-product__image-ibg">
 										<picture><source data-srcset="img/catalog/image1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/image1.jpg" alt="image"></picture>
-										<div class="item-product__stock">Акция</div>
+										<div class="item-product__stock">Discount</div>
 									</a>
-									<a href="product.html" class="item-product__name">Iron copper</a>
+									<a href="product.html" class="item-product__name">Lorem ipsum</a>
 									<div class="item-product__info">
-										<div class="item-product__manufacturer">Neolith</div>
-										<div class="item-product__status">Бесплатная порезка</div>
+										<span class="item-product__manufacturer">Neolith</span>
+										<span class="item-product__status">Free cutting</span>
 									</div>
 								</div>
 								<div class="body-catalog__item item-product">
 									<a href="product.html" class="item-product__image-ibg">
 										<picture><source data-srcset="img/catalog/image1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/image1.jpg" alt="image"></picture>
-										<div class="item-product__stock">Акция</div>
+										<div class="item-product__stock">Discount</div>
 									</a>
-									<a href="product.html" class="item-product__name">Iron copper</a>
+									<a href="product.html" class="item-product__name">Lorem ipsum</a>
 									<div class="item-product__info">
-										<div class="item-product__manufacturer">Neolith</div>
-										<div class="item-product__status">Бесплатная порезка</div>
+										<span class="item-product__manufacturer">Neolith</span>
+										<span class="item-product__status">Free cutting</span>
 									</div>
 								</div>
 								<div class="body-catalog__item item-product">
 									<a href="product.html" class="item-product__image-ibg">
 										<picture><source data-srcset="img/catalog/image1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/image1.jpg" alt="image"></picture>
-										<div class="item-product__stock">Акция</div>
+										<div class="item-product__stock">Discount</div>
 									</a>
-									<a href="product.html" class="item-product__name">Iron copper</a>
+									<a href="product.html" class="item-product__name">Lorem ipsum</a>
 									<div class="item-product__info">
-										<div class="item-product__manufacturer">Neolith</div>
-										<div class="item-product__status">Бесплатная порезка</div>
+										<span class="item-product__manufacturer">Neolith</span>
+										<span class="item-product__status">Free cutting</span>
 									</div>
 								</div>
 								<div class="body-catalog__item item-product">
 									<a href="product.html" class="item-product__image-ibg">
 										<picture><source data-srcset="img/catalog/image1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/image1.jpg" alt="image"></picture>
-										<div class="item-product__stock">Акция</div>
+										<div class="item-product__stock">Discount</div>
 									</a>
-									<a href="product.html" class="item-product__name">Iron copper</a>
+									<a href="product.html" class="item-product__name">Lorem ipsum</a>
 									<div class="item-product__info">
-										<div class="item-product__manufacturer">Neolith</div>
-										<div class="item-product__status">Бесплатная порезка</div>
+										<span class="item-product__manufacturer">Neolith</span>
+										<span class="item-product__status">Free cutting</span>
 									</div>
 								</div>
 							</div>
@@ -514,28 +514,28 @@
 				<div class="footer__content">
 					<nav class="footer__navigation">
 						<ul class="footer__list">
-							<li class="footer__item"><a href="catalog.html" class="footer__link">Каталог</a></li>
-							<li class="footer__item"><a href="gallery.html" class="footer__link">Галерея</a></li>
-							<li class="footer__item"><a href="stock.html" class="footer__link">Акции</a></li>
-							<li class="footer__item"><a href="service.html" class="footer__link">Сервис</a></li>
+							<li class="footer__item"><a href="catalog.html" class="footer__link">Catalog</a></li>
+							<li class="footer__item"><a href="gallery.html" class="footer__link">Gallery</a></li>
+							<li class="footer__item"><a href="stock.html" class="footer__link">Stock</a></li>
+							<li class="footer__item"><a href="service.html" class="footer__link">Service</a></li>
 						</ul>
 						<ul class="footer__list">
-							<li class="footer__item"><a href="blogs.html" class="footer__link">Статьи</a></li>
-							<li class="footer__item"><a href="about.html" class="footer__link">О нас</a></li>
-							<li class="footer__item"><a href="contacts.html" class="footer__link">Контакты</a></li>
+							<li class="footer__item"><a href="blogs.html" class="footer__link">Blogs</a></li>
+							<li class="footer__item"><a href="about.html" class="footer__link">About us</a></li>
+							<li class="footer__item"><a href="contacts.html" class="footer__link">Contacts</a></li>
 						</ul>
 					</nav>
 					<div class="footer__social social-footer">
-						<a href="#" class="social-footer__item"><picture><source srcset="img/icons/facebook.webp" type="image/webp"><img src="img/icons/facebook.jpg" alt="facebook"></picture><span>facebook</span></a>
-						<a href="#" class="social-footer__item"><picture><source srcset="img/icons/telegram.webp" type="image/webp"><img src="img/icons/telegram.jpg" alt="telegram"></picture><span>telegram</span></a>
-						<a href="#" class="social-footer__item"><picture><source srcset="img/icons/viber.webp" type="image/webp"><img src="img/icons/viber.jpg" alt="viber"></picture><span>viber</span></a>
+						<a href="#" class="social-footer__item social-footer__item_facebook">facebook</a>
+						<a href="#" class="social-footer__item social-footer__item_telegram">telegram</a>
+						<a href="#" class="social-footer__item social-footer__item_viber">viber</a>
 					</div>
 				</div>
 			</div>
 		</footer>
 	</div>
 
-	<script src="js/app.min.js?_v=20221113123513"></script>
+	<script src="js/app.min.js?_v=20230823133935"></script>
 </body>
 
 </html>

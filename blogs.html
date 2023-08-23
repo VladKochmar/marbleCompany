@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
-	<title>Блог</title>
+	<title>Blog</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20221113123513">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230823133935">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,28 +21,28 @@
 					<button type="button" class="menu__icon icon-menu"><span></span></button>
 					<nav class="menu__body">
 						<ul class="menu__list">
-							<li class="menu__item"><a href="catalog.html" class="menu__link">Каталог</a></li>
+							<li class="menu__item"><a href="catalog.html" class="menu__link">Catalog</a></li>
 							<li class="menu__item">
-								<a href="gallery.html" class="menu__link menu__link_arrow">Галерея</a>
+								<a href="index.html" class="menu__link menu__link_arrow">Home</a>
 								<div class="menu__sublist">
 									<ul class="sublist-menu">
-										<li class="sublist-menu__item"><a href="kitchens.html" class="sublist-menu__link">Кухни</a></li>
-										<li class="sublist-menu__item"><a href="kitchens.html" class="sublist-menu__link">Ванные</a></li>
-										<li class="sublist-menu__item"><a href="kitchens.html" class="sublist-menu__link">Подоконники</a></li>
-										<li class="sublist-menu__item"><a href="kitchens.html" class="sublist-menu__link">Барные стойки</a></li>
-										<li class="sublist-menu__item"><a href="kitchens.html" class="sublist-menu__link">Коммерчиские объекты</a></li>
+										<li class="sublist-menu__item"><a href="kitchens.html" class="sublist-menu__link">Kitchens</a></li>
+										<li class="sublist-menu__item"><a href="#" class="sublist-menu__link">Bathrooms</a></li>
+										<li class="sublist-menu__item"><a href="#" class="sublist-menu__link">Window sills</a></li>
+										<li class="sublist-menu__item"><a href="#" class="sublist-menu__link">Bar counters</a></li>
+										<li class="sublist-menu__item"><a href="#" class="sublist-menu__link">Commercial objects</a></li>
 									</ul>
 								</div>
 							</li>
-							<li class="menu__item"><a href="stock.html" class="menu__link">Акции</a></li>
-							<li class="menu__item"><a href="service.html" class="menu__link">Сервис</a></li>
-							<li class="menu__item"><a href="blogs.html" class="menu__link">Статьи</a></li>
+							<li class="menu__item"><a href="stock.html" class="menu__link">Stock</a></li>
+							<li class="menu__item"><a href="service.html" class="menu__link">Service</a></li>
+							<li class="menu__item"><a href="blogs.html" class="menu__link">Blogs</a></li>
 							<li class="menu__item">
-								<a href="about.html" class="menu__link menu__link_arrow">О Компании</a>
+								<a href="about.html" class="menu__link menu__link_arrow">About company</a>
 								<div class="menu__sublist">
 									<ul class="sublist-menu">
-										<li class="sublist-menu__item"><a href="contacts.html" class="sublist-menu__link">Контакты</a></li>
-										<li class="sublist-menu__item"><a href="partnership.html" class="sublist-menu__link">Партнерство с UA Quartz</a></li>
+										<li class="sublist-menu__item"><a href="contacts.html" class="sublist-menu__link">Contacts</a></li>
+										<li class="sublist-menu__item"><a href="partnership.html" class="sublist-menu__link">Partnership</a></li>
 									</ul>
 								</div>
 							</li>
@@ -52,44 +52,44 @@
 				<div data-da=".menu__body, 767.98" data-one-select class="header__contacts contacts-header">
 					<div class="contacts-header__selects">
 						<select id="countries" name="form[]" data-class-modif="select-contacts" data-show-selected>
-							<option data-class="select-contacts__item" value="Ukraine" selected>Укр</option>
-							<option data-class="select-contacts__item" value="Poland">Пл</option>
+							<option data-class="select-contacts__item" value="Ukraine" selected>Uk</option>
+							<option data-class="select-contacts__item" value="Poland">Pl</option>
 						</select>
 						<select data-country="Ukraine" name="form[]" data-show-selected data-class-modif="select-contacts">
-							<option data-class="select-contacts__city" value="kyiv" selected>Киев</option>
-							<option data-class="select-contacts__city" value="odessa">Одесса</option>
-							<option data-class="select-contacts__city" value="dnepr">Днепр</option>
-							<option data-class="select-contacts__city" value="lvov">Львов</option>
-							<option data-class="select-contacts__city" value="kharkiv">Харьков</option>
+							<option data-class="select-contacts__city" value="Kyiv" selected>Kyiv</option>
+							<option data-class="select-contacts__city" value="Odesa">Odesa</option>
+							<option data-class="select-contacts__city" value="Dnipro">Dnipro</option>
+							<option data-class="select-contacts__city" value="Lviv">Lviv</option>
+							<option data-class="select-contacts__city" value="Kharkiv">Kharkiv</option>
 						</select>
 						<select data-country="Poland" name="form[]" data-show-selected data-class-modif="select-contacts">
-							<option data-class="select-contacts__city" value="warsaw" selected>Варшава</option>
-							<option data-class="select-contacts__city" value="wroclaw">Вроцлав</option>
+							<option data-class="select-contacts__city" value="Warsaw" selected>Warsaw</option>
+							<option data-class="select-contacts__city" value="Wroclaw">Wroclaw</option>
 						</select>
 					</div>
 					<div class="contacts-header__items">
-						<div id="kyiv" class="contacts-header__phone">
-							<a href="tel:+380675054499" class="contacts-header__number">+38 (067) 505-44-99</a>
-							<a href="tel:+380675014499" class="contacts-header__number">+38 (067) 501-44-99</a>
+						<div id="Kyiv" class="contacts-header__phone">
+							<a href="tel:+380674444444" class="contacts-header__number">+38 (067) 444-44-44</a>
+							<a href="tel:+380675555555" class="contacts-header__number">+38 (067) 555-55-55</a>
 						</div>
-						<div id="odessa" class="contacts-header__phone" style="display: none;">
-							<a href="tel:+380938410664" class="contacts-header__number">+38 (093) 841-06-64</a>
-							<a href="tel:+380675014499" class="contacts-header__number">+38 (067) 501-44-99</a>
+						<div id="Odesa" class="contacts-header__phone" style="display: none;">
+							<a href="tel:+380939999999" class="contacts-header__number">+38 (093) 999-99-99</a>
+							<a href="tel:+380676666666" class="contacts-header__number">+38 (067) 666-66-66</a>
 						</div>
-						<div id="dnepr" class="contacts-header__phone" style="display: none;">
-							<a href="tel:+380932849550" class="contacts-header__number">+38 (093) 284-95-50</a>
+						<div id="Dnipro" class="contacts-header__phone" style="display: none;">
+							<a href="tel:+380932222222" class="contacts-header__number">+38 (093) 222-22-22</a>
 						</div>
-						<div id="lvov" class="contacts-header__phone" style="display: none;">
-							<a href="tel:+380938410673" class="contacts-header__number">+38 (093) 841-06-73</a>
+						<div id="Lviv" class="contacts-header__phone" style="display: none;">
+							<a href="tel:+380938888888" class="contacts-header__number">+38 (093) 888-88-88</a>
 						</div>
-						<div id="kharkiv" class="contacts-header__phone" style="display: none;">
-							<a href="tel:+380675054499" class="contacts-header__number">+38 (067) 505-44-99</a>
+						<div id="Kharkiv" class="contacts-header__phone" style="display: none;">
+							<a href="tel:+380677777777" class="contacts-header__number">+38 (067) 777-77-77</a>
 						</div>
-						<div id="warsaw" class="contacts-header__phone" style="display: none;">
-							<a href="tel:+480675054499" class="contacts-header__number">+48 (067) 505-44-99</a>
+						<div id="Warsaw" class="contacts-header__phone" style="display: none;">
+							<a href="tel:+48505445995" class="contacts-header__number">+48 505-445-995</a>
 						</div>
-						<div id="wroclaw" class="contacts-header__phone" style="display: none;">
-							<a href="tel:+480938410673" class="contacts-header__number">+48 (093) 841-06-73</a>
+						<div id="Wroclaw" class="contacts-header__phone" style="display: none;">
+							<a href="tel:+48841061734" class="contacts-header__number">+48 841-061-734</a>
 						</div>
 					</div>
 				</div>
@@ -101,60 +101,60 @@
 					<div class="blogs__header page-top">
 						<nav class="page-top__pages pages-navigation">
 							<ul class="pages-navigation__list">
-								<li class="pages-navigation__item"><a href="index.html" class="pages-navigation__link">Главная</a></li>
-								<li class="pages-navigation__item"><a href="blogs.html" class="pages-navigation__link pages-navigation__link_active">Блог</a></li>
+								<li class="pages-navigation__item"><a href="index.html" class="pages-navigation__link">Home</a></li>
+								<li class="pages-navigation__item"><a href="#" class="pages-navigation__link pages-navigation__link_active">Blog</a></li>
 							</ul>
 						</nav>
-						<h1 class="page-top__title">Блог о дизайне интерьера</h1>
+						<h1 class="page-top__title">Interior Design Blog</h1>
 					</div>
 					<div class="blogs__items">
 						<div class="blogs__item item-blogs">
-							<a href="article.html" class="item-blogs__image-ibg"><picture><source data-srcset="img/blogs/image1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/blogs/image1.jpg" alt="Новая коллекция CAESARSTONE в Милане"></picture></a>
+							<a href="article.html" class="item-blogs__image-ibg"><picture><source data-srcset="img/blogs/image1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/blogs/image1.jpg" alt="image"></picture></a>
 							<div class="item-blogs__content">
-								<a href="article.html" class="item-blogs__title">Новая коллекция CAESARSTONE в Милане</a>
-								<p class="item-blogs__text">Недавно в Милане стартовал 2023 Milan Design Week одна из самых больших и важных выставок в сфере дизайна на мировом пространстве. Миланская неделя дизайна ежегодно собирает самые передовые ...</p>
+								<a href="article.html" class="item-blogs__title">Lorem ipsum dolor sit amet consectetur</a>
+								<p class="item-blogs__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nisi saepe nesciunt dicta nam esse doloremque minima voluptate enim magni laudantium similique, consectetur dolorum, explicabo corporis quod...</p>
 							</div>
 						</div>
 						<div class="blogs__item item-blogs">
-							<a href="article.html" class="item-blogs__image-ibg"><picture><source data-srcset="img/blogs/image2.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/blogs/image2.jpg" alt="Технология производства кварцевого агломерата"></picture></a>
+							<a href="article.html" class="item-blogs__image-ibg"><picture><source data-srcset="img/blogs/image2.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/blogs/image2.jpg" alt="image"></picture></a>
 							<div class="item-blogs__content">
-								<a href="article.html" class="item-blogs__title">Технология производства кварцевого агломерата</a>
-								<p class="item-blogs__text">Агломератом называется соединение различных минералов, соединенных связующим веществом. Как вид строительного материала он был известный ещё в Древнем Риме. Сегодня же кварцевый агломерат получают, используя современные технологии производства...</p>
+								<a href="article.html" class="item-blogs__title">Lorem ipsum dolor sit amet consectetur adipisicing</a>
+								<p class="item-blogs__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem fugiat unde quam, harum labore inventore perspiciatis? Fuga, ex soluta. Voluptatem ratione ipsa eius quidem eos sunt dolore quasi, aut nam...</p>
 							</div>
 						</div>
 						<div class="blogs__item item-blogs">
-							<a href="article.html" class="item-blogs__image-ibg"><picture><source data-srcset="img/blogs/image3.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/blogs/image3.jpg" alt="Раковина из кварцового агломерата"></picture></a>
+							<a href="article.html" class="item-blogs__image-ibg"><picture><source data-srcset="img/blogs/image3.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/blogs/image3.jpg" alt="image"></picture></a>
 							<div class="item-blogs__content">
-								<a href="article.html" class="item-blogs__title">Раковина из кварцового агломерата</a>
-								<p class="item-blogs__text">Дизайнеры сегодня все чаще используют в своих проектах кварцевый камень. Податливость материала, надёжность и эстетичность способствовали его большой популярноси...</p>
+								<a href="article.html" class="item-blogs__title">Lorem ipsum dolor sit amet</a>
+								<p class="item-blogs__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, vel fugit possimus vitae ratione totam nisi quos tenetur, facere quae voluptates impedit deserunt modi itaque...</p>
 							</div>
 						</div>
 						<div class="blogs__item item-blogs">
-							<a href="article.html" class="item-blogs__image-ibg"><picture><source data-srcset="img/blogs/image4.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/blogs/image4.jpg" alt="Преимущества кварцевого камня"></picture></a>
+							<a href="article.html" class="item-blogs__image-ibg"><picture><source data-srcset="img/blogs/image4.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/blogs/image4.jpg" alt="image"></picture></a>
 							<div class="item-blogs__content">
-								<a href="article.html" class="item-blogs__title">Преимущества кварцевого камня</a>
-								<p class="item-blogs__text">Кварцевый камень является высококачественным материалом с наличием большого количества преимуществ. Несмотря на довольно высокую стоимость материала, все большое количество потребителей...</p>
+								<a href="article.html" class="item-blogs__title">Lorem, ipsum dolor</a>
+								<p class="item-blogs__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque amet natus accusamus quibusdam eum harum. Possimus debitis quidem iusto ab quos consequuntur quisquam voluptate saepe nobis. A, optio atque autem inventore reiciendis quidem quia accusamus...</p>
 							</div>
 						</div>
 						<div class="blogs__item item-blogs">
-							<a href="article.html" class="item-blogs__image-ibg"><picture><source data-srcset="img/blogs/image5.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/blogs/image5.jpg" alt="Какой толщины бывает кварцевый агломерат"></picture></a>
+							<a href="article.html" class="item-blogs__image-ibg"><picture><source data-srcset="img/blogs/image5.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/blogs/image5.jpg" alt="image"></picture></a>
 							<div class="item-blogs__content">
-								<a href="article.html" class="item-blogs__title">Какой толщины бывает кварцевый агломерат</a>
-								<p class="item-blogs__text">Недавно в Милане стартовал 2023 Milan Design Week одна из самых больших и важных выставок в сфере дизайна на мировом пространстве. Миланская неделя дизайна ежегодно собирает самые...</p>
+								<a href="article.html" class="item-blogs__title">Lorem ipsum dolor sit amet consectetur adipisicing</a>
+								<p class="item-blogs__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae voluptatem dolorum architecto numquam eaque expedita eius, quaerat laudantium fugit perferendis eum quia dolor cumque consequuntur maiores error amet. Saepe, voluptatem excepturi. Cupiditate, obcaecati...</p>
 							</div>
 						</div>
 						<div class="blogs__item item-blogs">
-							<a href="article.html" class="item-blogs__image-ibg"><picture><source data-srcset="img/blogs/image6.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/blogs/image6.jpg" alt="Коллекции CAESARSTONE 2022"></picture></a>
+							<a href="article.html" class="item-blogs__image-ibg"><picture><source data-srcset="img/blogs/image6.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/blogs/image6.jpg" alt="image"></picture></a>
 							<div class="item-blogs__content">
-								<a href="article.html" class="item-blogs__title">Коллекции CAESARSTONE 2022</a>
-								<p class="item-blogs__text">Дизайнеры сегодня все чаще используют в своих проектах кварцевый камень. Податливость материала, надёжность и эстетичность способствовали его большой популярности...</p>
+								<a href="article.html" class="item-blogs__title">Lorem ipsum dolor sit amet</a>
+								<p class="item-blogs__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt magni saepe atque! Qui ipsam error, voluptatem aperiam fugit impedit quos neque, hic, atque perferendis facere eum iste dolorem...</p>
 							</div>
 						</div>
 						<div class="blogs__item item-blogs">
-							<a href="article.html" class="item-blogs__image-ibg"><picture><source data-srcset="img/blogs/image7.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/blogs/image7.jpg" alt="Изделия из кварцевого агломерата"></picture></a>
+							<a href="article.html" class="item-blogs__image-ibg"><picture><source data-srcset="img/blogs/image7.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/blogs/image7.jpg" alt="image"></picture></a>
 							<div class="item-blogs__content">
-								<a href="article.html" class="item-blogs__title">Изделия из кварцевого агломерата</a>
-								<p class="item-blogs__text">В современном дизайне все чаще используется кварцевый камень. Камень можно встретить в оформлении домов, ресторанов, бутиков и других помещений. Кварцевый агломерат в эксплуатации показал...</p>
+								<a href="article.html" class="item-blogs__title">Lorem ipsum dolor sit amet consectetur adipisicing</a>
+								<p class="item-blogs__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum debitis voluptatum, mollitia officiis possimus rem voluptate totam repudiandae? Odit quasi sequi cupiditate aliquam excepturi repellat animi. Nulla et voluptatem ab...</p>
 							</div>
 						</div>
 					</div>
@@ -178,28 +178,28 @@
 				<div class="footer__content">
 					<nav class="footer__navigation">
 						<ul class="footer__list">
-							<li class="footer__item"><a href="catalog.html" class="footer__link">Каталог</a></li>
-							<li class="footer__item"><a href="gallery.html" class="footer__link">Галерея</a></li>
-							<li class="footer__item"><a href="stock.html" class="footer__link">Акции</a></li>
-							<li class="footer__item"><a href="service.html" class="footer__link">Сервис</a></li>
+							<li class="footer__item"><a href="catalog.html" class="footer__link">Catalog</a></li>
+							<li class="footer__item"><a href="gallery.html" class="footer__link">Gallery</a></li>
+							<li class="footer__item"><a href="stock.html" class="footer__link">Stock</a></li>
+							<li class="footer__item"><a href="service.html" class="footer__link">Service</a></li>
 						</ul>
 						<ul class="footer__list">
-							<li class="footer__item"><a href="blogs.html" class="footer__link">Статьи</a></li>
-							<li class="footer__item"><a href="about.html" class="footer__link">О нас</a></li>
-							<li class="footer__item"><a href="contacts.html" class="footer__link">Контакты</a></li>
+							<li class="footer__item"><a href="blogs.html" class="footer__link">Blogs</a></li>
+							<li class="footer__item"><a href="about.html" class="footer__link">About us</a></li>
+							<li class="footer__item"><a href="contacts.html" class="footer__link">Contacts</a></li>
 						</ul>
 					</nav>
 					<div class="footer__social social-footer">
-						<a href="#" class="social-footer__item"><picture><source srcset="img/icons/facebook.webp" type="image/webp"><img src="img/icons/facebook.jpg" alt="facebook"></picture><span>facebook</span></a>
-						<a href="#" class="social-footer__item"><picture><source srcset="img/icons/telegram.webp" type="image/webp"><img src="img/icons/telegram.jpg" alt="telegram"></picture><span>telegram</span></a>
-						<a href="#" class="social-footer__item"><picture><source srcset="img/icons/viber.webp" type="image/webp"><img src="img/icons/viber.jpg" alt="viber"></picture><span>viber</span></a>
+						<a href="#" class="social-footer__item social-footer__item_facebook">facebook</a>
+						<a href="#" class="social-footer__item social-footer__item_telegram">telegram</a>
+						<a href="#" class="social-footer__item social-footer__item_viber">viber</a>
 					</div>
 				</div>
 			</div>
 		</footer>
 	</div>
 
-	<script src="js/app.min.js?_v=20221113123513"></script>
+	<script src="js/app.min.js?_v=20230823133935"></script>
 </body>
 
 </html>
